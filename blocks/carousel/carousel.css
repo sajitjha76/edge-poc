@@ -63,7 +63,12 @@
   transform: translate(10px, -50%);
   left: 2%;
 }
-
+.carousel .carousel-slide .carousel-slide-content p {
+    margin: 0;
+    color: #424349;
+    font-size: 24px;
+    line-height: 19px;
+}
 .carousel .carousel-slide-indicators {
   display: flex;
   flex-wrap: wrap;
