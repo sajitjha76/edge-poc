@@ -67,7 +67,7 @@
     margin: 0;
     color: #424349;
     font-size: 24px;
-    line-height: 19px;
+    line-height: 36px;
 }
 .carousel .carousel-slide-indicators {
   display: flex;
@@ -147,12 +147,6 @@
   .carousel .carousel-navigation-buttons {
     left: 24px;
     right: 24px;
-  }
-
-  .carousel .carousel-slide .carousel-slide-content {
-    --slide-content-width: calc((100% - 184px) / 2);
-
-    margin: 92px;
   }
 
   .carousel .carousel-slide .carousel-slide-content[data-align='justify'] {
