@@ -205,7 +205,8 @@ header nav .nav-sections ul > li > ul > li {
     content: '';
     display: inline-block;
     position: absolute;
-    top: 0.5em;
+/*     top: 0.5em; */
+      top:8px;
     right: 2px;
     transform: rotate(135deg);
     width: 6px;
@@ -216,14 +217,15 @@ header nav .nav-sections ul > li > ul > li {
   }
 
   header nav .nav-sections .nav-drop[aria-expanded='true']::after {
-    top: unset;
+/*     top: unset; */
+      top:18px;
     bottom: 0.5em;
     transform: rotate(315deg);
   }
 
   header nav .nav-sections ul {
     display: flex;
-    gap: 24px;
+/*     gap: 24px; */
     margin: 0;
   }
 /*Narayana Code starts here */
@@ -233,7 +235,7 @@ header nav .nav-sections ul > li > ul > li {
         font-size:13px;
         line-height:30px;
         font-weight:600;
-        padding:20px 0px;
+        padding:15px 0px;
         
     }
     header nav .nav-sections .default-content-wrapper p a 
@@ -257,7 +259,7 @@ header nav .nav-sections ul > li > ul > li {
   header nav .nav-sections .default-content-wrapper > ul > li {
     flex: 0 1 auto;
     position: relative;
-    margin:0px 32px;
+    margin:0px 16px;
       color:white;
        font-size:13px;
         line-height:30px;
