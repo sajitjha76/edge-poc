@@ -1,9 +1,14 @@
 .tabs .tabs-list {
   display: flex;
-  gap: 0.5ch;
+/*   gap: 0.5ch; */
+    gap: unset;
   max-width: 100%;
   font-size: var(--body-font-size-xs);
   overflow-x: auto;
+    /* Added by narayana */
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-bottom: solid 1px
 }
 
 @media (width >= 600px) {
