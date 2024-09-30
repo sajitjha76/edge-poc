@@ -145,24 +145,27 @@
     border-bottom-left-radius: 10px;
     padding-top:15px;
     padding-bottom:15px;
+    padding-left:55px
     color: #6a717c;
     font-size: 15px;
     line-height:18px;
     font-weight:400;
+    position:relative;
 }
 .tabs .tabs-panel div p:last-of-type:before {
     content: "";
     background-image: url(https://www.yesbank.in/_cache_be79/_compdelivery/ybl-sa-accounts-type-overview/assets/images/offers.svg);
     position: absolute;
-    /* top: 0%; */
     object-fit: fill;
     width: 30px;
-    height: 100px;
+    height: 30px;
     display: block;
-    left: -10px;
+    left: 20px;
+    top: 7px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    display: inline;
 }
 .tabs .tabs-panel[aria-hidden='true'] {
   display: none;
