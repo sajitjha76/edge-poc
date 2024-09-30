@@ -113,6 +113,10 @@
     font-weight:400; 
     color: #4b535c;
 }
+.tabs .tabs-panel div p:not(:first-of-type , :nth-of-type(2) , :nth-of-type(3) , :nth-last-of-type() , :has(.button-container))
+{
+    color: red;
+}
 
 .tabs .tabs-panel[aria-hidden='true'] {
   display: none;
