@@ -113,13 +113,27 @@
     font-weight:400; 
     color: #4b535c;
 }
-.tabs .tabs-panel div p:not(:first-of-type , :nth-of-type(2) , :nth-of-type(3) , :nth-last-of-type , :has(.button-container))
+.tabs .tabs-panel div p:not(:first-of-type):not(:nth-of-type(2)):not(:nth-of-type(3)):not(:last-of-type):not(.button-container)
 {
-    color: red;
+    position:relative;
+    font-size:15px;
+    line-height: 18px;
+    font-weight:400;
+    color: #4b535c;
+        padding: 0px 40px;
 }
-.tabs .tabs-panel div p:not(:first-of-type):not(:nth-of-type(2)):not(:nth-of-type(3)):not(:nth-last-of-type):not(.button-container) 
+.tabs .tabs-panel div p:not(:first-of-type):not(:nth-of-type(2)):not(:nth-of-type(3)):not(:last-of-type):not(.button-container):before
 {
-    color: red;
+       display: inline-block;
+    height: 12px;
+    width: 6px;
+    border-bottom: 2px solid #1B48C1;
+    border-right: 2px solid #1B48C1;
+    transform: rotate(45deg);
+    content: '';
+    position: absolute;
+    top: 2px !important;
+    left: 19px;
 }
 .tabs .tabs-panel div p.button-container
 {
