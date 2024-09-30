@@ -204,7 +204,7 @@ header nav .nav-sections ul > li > ul > li {
   header nav .nav-sections .nav-drop::after {
     content: '';
     display: inline-block;
-    position: absolute;
+/*     position: absolute; */
 /*     top: 0.5em; */
       top:8px;
     right: 2px;
@@ -214,6 +214,8 @@ header nav .nav-sections ul > li > ul > li {
     border: 2px solid currentcolor;
     border-radius: 0 1px 0 0;
     border-width: 2px 2px 0 0;
+      margin-left: 5px;
+        margin-bottom: 2px
   }
 
   header nav .nav-sections .nav-drop[aria-expanded='true']::after {
@@ -221,6 +223,7 @@ header nav .nav-sections ul > li > ul > li {
       top:18px;
     bottom: 0.5em;
     transform: rotate(315deg);
+      margin-bottom: -3px;
   }
 
   header nav .nav-sections ul {
