@@ -81,8 +81,28 @@
     background: #f5f7f9;
     border-radius: 10px;
     text-align: left;
-    padding: 0px 20px;
+/*     padding: 0px 20px; */
 }
+/* Added by Narayana N */
+.tabs .tabs-panel div img 
+{
+    width:100%;
+    margin:auto;
+}
+/* Added by Narayana N */ 
+.tabs .tabs-panel div p 
+{
+    padding:0 px 20px;
+    margin:0;
+}
+.tabs .tabs-panel div p:nth-of-type(0)
+{
+   font-size:25px;
+    line-height:30px;
+    font-weight:700;
+    margin: 15px 10px !important;
+}
+
 .tabs .tabs-panel[aria-hidden='true'] {
   display: none;
 }
