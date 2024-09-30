@@ -231,11 +231,13 @@ header nav .nav-sections ul > li > ul > li {
 /*Narayana Code starts here */
   header nav .nav-sections .default-content-wrapper p 
     {
+        display:flex;
+        width:100%;
         color:#333333;
         font-size:13px;
         line-height:30px;
         font-weight:600;
-        padding:15px 0px;
+/*         padding:15px 0px; */
         
     }
     header nav .nav-sections .default-content-wrapper p a 
@@ -245,11 +247,16 @@ header nav .nav-sections ul > li > ul > li {
         line-height:30px;
         font-weight:600;
         margin:0 32px;
+        display:block;
+        align-self:center;
     }
     header nav .nav-sections .default-content-wrapper p strong a , header nav .nav-sections .default-content-wrapper p strong
     {
         margin:0 !important;
         color:#2b61ab4d;
+        display:block;
+        align-self:center;
+        
     }
     header nav .nav-sections .default-content-wrapper > ul 
     {
