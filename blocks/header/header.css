@@ -142,6 +142,8 @@ header .nav-brand {
   font-size: var(--heading-font-size-s);
   font-weight: 700;
   line-height: 1;
+    /*Narayana */
+    display:none;
 }
 
 header nav .nav-brand img {
@@ -223,10 +225,42 @@ header nav .nav-sections ul > li > ul > li {
     gap: 24px;
     margin: 0;
   }
-
+/*Narayana Code starts here */
+  header nav .nav-sections .default-content-wrapper p 
+    {
+        color:#333333;
+        font-size:13px;
+        line-height:30px;
+        font-weight:600;
+        
+    }
+    header nav .nav-sections .default-content-wrapper p a 
+    {
+         color:#333333;
+        font-size:13px;
+        line-height:30px;
+        font-weight:600;
+        margin:0 32px;
+    }
+    header nav .nav-sections .default-content-wrapper p strong a , header nav .nav-sections .default-content-wrapper p strong
+    {
+        margin:0 !important;
+        color:#2b61ab4d;
+    }
+    header nav .nav-sections .default-content-wrapper ul 
+    {
+        background : #002EDC;
+        padding:11px 0px;
+    }
   header nav .nav-sections .default-content-wrapper > ul > li {
     flex: 0 1 auto;
     position: relative;
+    margin:0px 32px;
+      color:white;
+       font-size:13px;
+        line-height:30px;
+        font-weight:600;
+      
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {
