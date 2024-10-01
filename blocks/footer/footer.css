@@ -11,6 +11,13 @@ footer .default-content-wrapper:nth-of-type(1)
     padding: 0 10%;
     
 }
+footer .default-content-wrapper:nth-of-type(2)
+{
+    text-align:center;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    
+}
 footer .default-content-wrapper:nth-of-type(1) p 
 {
     tex-align:left; 
@@ -31,7 +38,31 @@ footer .default-content-wrapper:nth-of-type(1) p:nth-of-type(2)
     letter-spacing: 0.2px;
     font-weight: 400;
 }
-
+footer .default-content-wrapper:nth-of-type(2) p a 
+{
+    margin:0px 12px;
+}
+footer .default-content-wrapper:nth-of-type(2) p
+{
+    margin-bottom:10px !important;
+}
+footer .default-content-wrapper:nth-of-type(2) p:nth-of-type(3) 
+{
+    padding-bottom: 30px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+footer .default-content-wrapper:nth-of-type(2) p:nth-of-type(4) 
+{
+    color: #ffffff;
+    padding-bottom : 30px;
+    
+}
+footer .default-content-wrapper:nth-of-type(2) p:nth-of-type(4)  img 
+{
+    width : 60px;
+    height:auto;
+    
+}
 footer .default-content-wrapper p a 
 {
      color:#ffffff;
@@ -62,10 +93,12 @@ footer .columns.footercustom > div > div p:nth-of-type(1)
 
 #download-iris-by-yes-bank , #the-next-gen-mobile-banking-app , #customer-care
 {
+    margin-top : 0;
     margin-bottom: 12px;
     color: #ffffff;
     font-size: 14px;
     line-height: 19px;
+    font-weight: 400;
 }
 footer .columns.footercustom > div > div:last-of-type p:first-of-type 
 {
@@ -75,6 +108,16 @@ footer .columns.footercustom > div > div ul
 {
     list-style : none;
 }
+    footer .columns.footercustom > div > div ul li 
+    {
+         margin-top : 0;
+        margin-bottom: 12px;
+         color: #86CBFF;
+    }
+    footer .columns.footercustom > div > div ul li img 
+    {
+      margin-bottom: 12px;
+    }
 footer .footer > div {
   margin: auto;
   max-width: 1200px;
