@@ -91,9 +91,9 @@ async function submitDocBasedForm(form, captcha) {
     }
     const response = await fetch(url, {
       method: 'POST',
-      //headers,
-      headers: {
-      'Content-Type' : 'application/json',
+      headers,
+      //headers: {
+      //'Content-Type' : 'application/json',
       //...headers
 }
       body: JSON.stringify(body),
