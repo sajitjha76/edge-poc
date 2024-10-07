@@ -121,7 +121,7 @@ export async function handleSubmit(e, form, captcha) {
       form.querySelectorAll('.form-message.show').forEach((el) => el.classList.remove('show'));
 
       if (form.dataset.source === 'sheet') {
-        await submitDocBasedForm(form, captcha);
+        submitDocBasedForm(form, captcha);
       }
     }
   } else {
