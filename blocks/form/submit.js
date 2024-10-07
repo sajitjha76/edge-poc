@@ -94,7 +94,7 @@ async function submitDocBasedForm(form, captcha) {
       //headers,
       headers: {
       'Content-Type' : 'application/json',
-      ...headers
+      //...headers
 }
       body: JSON.stringify(body),
     });
