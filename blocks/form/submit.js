@@ -90,7 +90,7 @@ async function submitDocBasedForm(form, captcha) {
       body.data['g-recaptcha-response'] = token;
     }
     const response = await fetch(url, {
-      method: 'POST',
+      method: 'GET',
       headers,
       //headers: {
       //'Content-Type' : 'application/json',
