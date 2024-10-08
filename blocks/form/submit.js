@@ -99,7 +99,7 @@ async function submitDocBasedForm(form, captcha) {
       body: JSON.stringify(body),
     });
     if (response.ok) {
-      await submitSuccess(response, form);
+      submitSuccess(response, form);
     } else {
       const error = await response.text();
       throw new Error(error);
@@ -121,7 +121,7 @@ export async function handleSubmit(e, form, captcha) {
       form.querySelectorAll('.form-message.show').forEach((el) => el.classList.remove('show'));
 
       if (form.dataset.source === 'sheet') {
-        submitDocBasedForm(form, captcha);
+      await submitDocBasedForm(form, captcha);
       }
     }
   } else {
