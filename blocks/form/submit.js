@@ -84,6 +84,7 @@ async function prepareRequest(form) {
 async function submitDocBasedForm(form, captcha) {
   try {
     const { headers, body, url } = await prepareRequest(form, captcha);
+    console.log(headers , body , url)
     let token = null;
     if (captcha) {
       token = await captcha.getToken();
