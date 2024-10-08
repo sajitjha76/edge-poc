@@ -244,13 +244,6 @@ const fieldRenderers = {
   image: createImage,
   heading: createHeading,
 };
-//adding
-async function fetchForm(pathname) {
-  // get the main form
-  const resp = await fetch(pathname);
-  const json = await resp.json();
-  return json;
-}
 function colSpanDecorator(field, element) {
   const colSpan = field['Column Span'] || field.properties?.colspan;
   if (colSpan && element) {
@@ -482,37 +475,37 @@ function extractFormDefinition(block) {
   return { container, formDef };
 }
 
-// export async function fetchForm(pathname) {
-//   // get the main form
-//   let data;
-//   let path = pathname;
-//   if (path.startsWith(window.location.origin) && !path.endsWith('.json')) {
-//     if (path.endsWith('.html')) {
-//       path = path.substring(0, path.lastIndexOf('.html'));
-//     }
-//     path += '/jcr:content/root/section/form.html';
-//   }
-//   let resp = await fetch(path);
+export async function fetchForm(pathname) {
+  // get the main form
+  let data;
+  let path = pathname;
+  if (path.startsWith(window.location.origin) && !path.endsWith('.json')) {
+    if (path.endsWith('.html')) {
+      path = path.substring(0, path.lastIndexOf('.html'));
+    }
+    path += '/jcr:content/root/section/form.html';
+  }
+  let resp = await fetch(path);
 
-//   if (resp?.headers?.get('Content-Type')?.includes('application/json')) {
-//     data = await resp.json();
-//   } else if (resp?.headers?.get('Content-Type')?.includes('text/html')) {
-//     resp = await fetch(path);
-//     data = await resp.text().then((html) => {
-//       try {
-//         const doc = new DOMParser().parseFromString(html, 'text/html');
-//         if (doc) {
-//           return extractFormDefinition(doc.body).formDef;
-//         }
-//         return doc;
-//       } catch (e) {
-//         console.error('Unable to fetch form definition for path', pathname, path);
-//         return null;
-//       }
-//     });
-//   }
-//   return data;
-// }
+  if (resp?.headers?.get('Content-Type')?.includes('application/json')) {
+    data = await resp.json();
+  } else if (resp?.headers?.get('Content-Type')?.includes('text/html')) {
+    resp = await fetch(path);
+    data = await resp.text().then((html) => {
+      try {
+        const doc = new DOMParser().parseFromString(html, 'text/html');
+        if (doc) {
+          return extractFormDefinition(doc.body).formDef;
+        }
+        return doc;
+      } catch (e) {
+        console.error('Unable to fetch form definition for path', pathname, path);
+        return null;
+      }
+    });
+  }
+  return data;
+}
 
 export default async function decorate(block) {
   let container = block.querySelector('a[href]');
