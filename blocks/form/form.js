@@ -244,7 +244,13 @@ const fieldRenderers = {
   image: createImage,
   heading: createHeading,
 };
-
+//adding
+async function fetchForm(pathname) {
+  // get the main form
+  const resp = await fetch(pathname);
+  const json = await resp.json();
+  return json;
+}
 function colSpanDecorator(field, element) {
   const colSpan = field['Column Span'] || field.properties?.colspan;
   if (colSpan && element) {
