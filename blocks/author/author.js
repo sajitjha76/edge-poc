@@ -8,6 +8,11 @@ let authorCol=document.createElement("th");authorCol.appendChild(document.create
 authorCol.colSpan=2;
 authorRow.append(authorCol);
 
+let firstNameRow=document.createElement("tr);
+let firstNameColl=document.createElement("td");firstNameCol1.appendChild(document.createTextNode(fnamekey));
+let firstNameCo12=document.createElement("id");firstNaneCo12.appendChild(document.createTestNode(firstName));
+firstNameRow.append(firstNameColl);  firstNameRow.append(firstNameCo12);
+
 export default function decorate(block) {
     const headingDiv=document.createElement('div');
     headingDiv.classList.add("table-heading");
