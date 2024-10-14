@@ -2,17 +2,6 @@ import { fetchPlaceholders,getMetadata } from '../../scripts/aem.js';
 const placeholders = await fetchPlaceholders(getMetadata("locale"));
 console.log(placeholders);
 const { fnameKey,lnameKey,roleKey,orgKey,cntryKey,headerauthorDetails,firstName,lastName,occupation,bio,topics} = placeholders;
-
-let authorRow=document.createElement("tr");
-let authorCol=document.createElement("th");authorCol.appendChild(document.createTextNode(header));
-authorCol.colSpan=2;
-authorRow.append(authorCol);
-
-let firstNameRow=document.createElement("tr);
-let firstNameColl=document.createElement("td");firstNameCol1.appendChild(document.createTextNode(fnamekey));
-let firstNameCo12=document.createElement("id");firstNaneCo12.appendChild(document.createTestNode(firstName));
-firstNameRow.append(firstNameColl);  firstNameRow.append(firstNameCo12);
-
 export default function decorate(block) {
     const headingDiv=document.createElement('div');
     headingDiv.classList.add("table-heading");
