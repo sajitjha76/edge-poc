@@ -11,29 +11,12 @@
  */
 
 /* eslint-env browser */
-function sampleRUM(checkpoint, data = {}) {
-  sampleRUM.defer = sampleRUM.defer || [];
-  const defer = (fnname) => {
-    sampleRUM[fnname] = sampleRUM[fnname] || ((...args) => sampleRUM.defer.push({ fnname, args }));
-  };
-  sampleRUM.drain = sampleRUM.drain
-    || ((dfnname, fn) => {
-      sampleRUM[dfnname] = fn;
-      sampleRUM.defer
-        .filter(({ fnname }) => dfnname === fnname)
-        .forEach(({ fnname, args }) => sampleRUM[fnname](...args));
-    });
-  sampleRUM.always = sampleRUM.always || [];
-  sampleRUM.always.on = (chkpnt, fn) => {
-    sampleRUM.always[chkpnt] = fn;
-  };
-  sampleRUM.on = (chkpnt, fn) => {
-    sampleRUM.cases[chkpnt] = fn;
-  };
-  defer('observe');
-  defer('cwv');
+function sampleRUM(checkpoint, data) {
+  // eslint-disable-next-line max-len
+  const timeShift = () => (window.performance ? window.performance.now() : Date.now() - window.hlx.rum.firstReadTime);
   try {
     window.hlx = window.hlx || {};
+    sampleRUM.enhance = () => {};
     if (!window.hlx.rum) {
       const weight = (window.SAMPLE_PAGEVIEWS_AT_RATE === 'high' && 10)
         || (window.SAMPLE_PAGEVIEWS_AT_RATE === 'low' && 1000)
@@ -509,11 +492,7 @@ async function fetchPlaceholders(prefix = 'default') {
   window.placeholders = window.placeholders || {};
   if (!window.placeholders[prefix]) {
     window.placeholders[prefix] = new Promise((resolve) => {
-      //fetch(`${prefix === 'default' ? '' : prefix}/placeholders.json`)
-      let localizedURL = new URL(window.location.origin+"/"+prefix+"/placeholders.json");
-      //console.log("prefix",prefix,(`${prefix === 'default' ? '' : prefix}/placeholders.json`));
-      //fetch(`${prefix === 'default' ? '' : prefix}/placeholders.json`)
-      fetch(localizedURL)
+      fetch(`${prefix === 'default' ? '' : prefix}/placeholders.json`)
         .then((resp) => {
           if (resp.ok) {
             return resp.json();
