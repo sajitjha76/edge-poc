@@ -492,7 +492,10 @@ async function fetchPlaceholders(prefix = 'default') {
   window.placeholders = window.placeholders || {};
   if (!window.placeholders[prefix]) {
     window.placeholders[prefix] = new Promise((resolve) => {
-      fetch(`${prefix === 'default' ? '' : prefix}/placeholders.json`)
+      //fetch(`${prefix === 'default' ? '' : prefix}/placeholders.json`)
+      console.log("===>",prefix)
+      let localizedURL = new URL(window.location.origin+"/"+prefix+"/placeholders.json");
+      fetch(localizedURL)
         .then((resp) => {
           if (resp.ok) {
             return resp.json();
