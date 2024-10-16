@@ -1,4 +1,5 @@
 import { fetchPlaceholders,getMetadata } from '../../scripts/aem.js';
+async function createTableWithPlaceholder(table){
 const placeholders = await fetchPlaceholders(getMetadata("locale"));
 console.log(placeholders);
 const { fnameKey,lnameKey,roleKey,orgKey,cntryKey,headerauthorDetails,firstName,lastName,occupation,bio,topics} = placeholders;
@@ -32,7 +33,7 @@ table.append(firstNameRow);
 table.append(lirstNameRow);
 table.append(roleRow);
 table.append(orgRow);
-
+}
 export default function decorate(block) {
     const headingDiv=document.createElement('div');
     headingDiv.classList.add("table-heading");
