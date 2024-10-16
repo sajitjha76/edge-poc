@@ -1,6 +1,7 @@
 import { fetchPlaceholders,getMetadata } from '../../scripts/aem.js';
 async function createTableWithPlaceholder(table){
-const placeholders = await fetchPlaceholders(getMetadata("locale"));
+  const locale=getMetadata("locale");
+const placeholders = await fetchPlaceholders(locale);
 console.log(placeholders);
 const { fnameKey,lnameKey,roleKey,orgKey,cntryKey,headerauthorDetails,firstName,lastName,occupation,bio,topics} = placeholders;
 let authorRow=document.createElement("tr");
