@@ -563,8 +563,8 @@ main form .wizard > .current-wizard-step.panel-wrapper:last-of-type ~ .wizard-bu
     display: none;
 }
 .form-wrapper {
-    bottom: 4px;
-    padding: 40px;
+    bottom: 4px !important;
+    padding: 40px !important;
     border-radius: 16px;
     background-color: #ffffff;
     box-shadow: 0px 4px 15px 0px rgba(83, 89, 92, 0.25);
@@ -623,9 +623,9 @@ main form .wizard > .current-wizard-step.panel-wrapper:last-of-type ~ .wizard-bu
     display: inline-flex;
 }
 .number-wrapper, .drop-down-wrapper, .field-stafid, .field-stafname {
-    grid-column: span 4;
+    grid-column: span 4 !important;
 }
  
 .field-agreement, .field-appreciation, . {
-	grid-column: span 12;
+	grid-column: span 12 !important;
 }
