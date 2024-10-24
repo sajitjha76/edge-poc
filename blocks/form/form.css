@@ -622,3 +622,10 @@ main form .wizard > .current-wizard-step.panel-wrapper:last-of-type ~ .wizard-bu
     height: 44px;
     display: inline-flex;
 }
+.number-wrapper, .drop-down-wrapper, .field-stafid, .field-stafname {
+    grid-column: span 4;
+}
+ 
+.field-agreement, .field-appreciation, . {
+	grid-column: span 12;
+}
