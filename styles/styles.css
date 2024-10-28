@@ -255,7 +255,8 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
-.default-content-wrapper
+
+main 
 {
-    margin-top:7% !important;
+    margin-top: 10% !important;
 }
