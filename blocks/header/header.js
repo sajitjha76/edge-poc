@@ -1,7 +1,12 @@
 import {fetchPlaceholders, getMetadata } from '../../scripts/aem.js';
 import { loadFragment } from '../fragment/fragment.js';
 
-// media query match that indicates mobile/tablet width
+var script = document.createElement('script'); 
+script.src = 'https://assets.adobedtm.com/18d6771123cb/d0590f73eb9c/launch-233613411eb9-development.min.js';  
+script.type = 'text/javascript';  
+script.async = true; 
+document.head.appendChild(script);
+
 const isDesktop = window.matchMedia('(min-width: 900px)');
 
 function closeOnEscape(e) {
