@@ -180,8 +180,8 @@ export default async function decorate(block) {
   const navMeta = getMetadata('nav');
   //const navPath = navMeta ? new URL(navMeta, window.location).pathname : '/nav';
   var footerPagePath = '/nav';  
-  if (window.location.pathname.startsWith('/blogs/')) {    
-    footerPagePath = '/blogs/nav';  
+  if (window.location.pathname.startsWith('/fr/')) {    
+    footerPagePath = '/fr/nav';  
   }
   const navPath = navMeta ? new URL(navMeta, window.location).pathname : footerPagePath;
   const fragment = await loadFragment(navPath);
