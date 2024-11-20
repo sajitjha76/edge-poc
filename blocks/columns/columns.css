@@ -84,3 +84,45 @@ height:127px;
 		width:auto;
 		height:auto
 }
+.chooseus
+{
+        padding: 50px 0;
+        padding-bottom: 16px;
+   	 background-color: #f8f8f8;
+    	font-size: 13px;
+    	position: relative
+ text-align: center;
+}
+
+.chooseus > div 
+{
+       display: inline-flex;
+    align-items: flex-start;
+    justify-content: left;
+    padding: 0 30px;
+    text-align: center;
+}
+
+#why-choose-us 
+{
+	    font-size: 30px;
+    	line-height: 34px;
+    	text-align: center;
+    	margin: 20px;
+    font-weight: 700;
+}
+
+.chooseus > div div img
+{
+	border-radius:100px;
+}
+
+.chooseus > div div p
+{
+	font-size: 13px;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-align: center;
+        font-weight: 500;
+        color: #838383;
+}
