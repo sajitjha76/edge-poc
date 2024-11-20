@@ -1,3 +1,10 @@
+.faq-container .faq-wrappe 
+{
+    max-width:100%;
+    width:100%;
+    padding:0;
+    margin:0 100px;
+}
 .faq-container .faq-wrapper .faq.block > div  div:nth-of-type(2)
 {
     display:none;
