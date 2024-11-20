@@ -16,7 +16,11 @@
   scroll-snap-type: x mandatory;
   overflow: scroll clip;
 }
-
+.carousel .carousel-slides .carousel-slide-image
+{
+	width: 100%
+	
+}
 .carousel .carousel-slides::-webkit-scrollbar {
   display: none;
 }
