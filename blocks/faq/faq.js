@@ -9,7 +9,7 @@ elements.forEach(element => {
     const parentElement = element.parentElement; 
     // Find the sibling of the parent element 
     const siblingOfParent = parentElement.nextElementSibling;
-    console.log(siblingOfParent)
+    siblingOfParent.style.display = 'block';
  
   });
 });
