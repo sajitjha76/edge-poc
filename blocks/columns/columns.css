@@ -31,9 +31,8 @@
     order: unset;
   }
 }
-//Telephone
 
-.section.text-container .text-wrapper
+.text-container .text-wrapper
 {
 	    padding: 0;
     margin: 0;
