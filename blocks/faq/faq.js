@@ -5,6 +5,9 @@
 
 const elements = document.querySelectorAll(".faq-wrapper .faq h3")
 elements.forEach(element => {
+  const spanElement = document.createElement('span');
+  spanElement.classList.add('clickArrow');
+  element.insertAdjacentElement('afterend', spanElement)
   element.addEventListener('click', function() {
     const parentElement = element.parentElement; 
     // Find the sibling of the parent element 
