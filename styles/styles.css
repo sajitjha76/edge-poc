@@ -260,3 +260,86 @@ main
 {
     margin-top: 8% !important;
 }
+//Carousal Start
+
+.section.carousel-container
+{
+	position:relative;
+	width:100%
+}
+
+.section.carousel-container .carousel-wrapper
+{
+	max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.carousel-wrapper .carousel.block
+{
+	position:relative;
+}
+
+.carousel-wrapper .carousel.block .carousel-navigation-buttons 
+{
+	display:none;
+}
+.carousel-wrapper .carousel.block nav
+{
+	position: absolute;
+    	bottom: 0;
+	left:50%;
+}
+.carousel-wrapper .carousel.block nav ol 
+{
+	background: transparent;
+}
+.carousel-wrapper .carousel.block nav ol li.carousel-slide-indicator button 
+{
+	width:12px;
+	height:12px
+}
+.section.carousel-container .form-wrapper
+{
+	max-width: 40%;
+    width: 80%;
+    padding: 15px 20px !important;
+    border-radius: 0;
+    box-shadow: none;
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    bottom: 0 !important;
+    display: block;
+    box-sizing: border-box;
+    height: 85%;
+    margin: 0;
+}
+
+.section.carousel-container .form-wrapper p
+{
+	margin:0;	
+}
+.section.carousel-container .form-wrapper form
+{
+	gap: 15px
+}
+.section.carousel-container .form-wrapper form .checkbox-wrapper .field-label
+{
+	font-size: 12px !important;
+    line-height: 13.41px;
+    padding: 0;
+align-self: flex-start;
+}
+
+.section.carousel-container .form-wrapper form .button-wrapper button 
+{
+	margin: 0 0 10px 0;
+    background: #431a80;
+    border-color: #431a80;
+    border-radius: 0;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+	}
+//Carousal End
