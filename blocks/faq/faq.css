@@ -1,1 +1,8 @@
-
+.faq-container .faq-wrapper .faq block > div  div:nth-of-type(2)
+{
+    display:none;
+}
+.faq-container .faq-wrapper .faq block > div 
+{
+    border-bottom: 1px solid #cacbcc
+}
