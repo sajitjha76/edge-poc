@@ -18,7 +18,7 @@
     overflow: hidden; 
     transition: max-height 0.5s ease-in-out;
 }
-faq-container .faq-wrapper .faq.block > div  div:nth-of-type(2).show { 
+.show { 
     max-height: 50px; 
 }
 .faq-container .faq-wrapper .faq.block > div  div:nth-of-type(2) p
