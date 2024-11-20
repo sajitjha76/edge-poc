@@ -157,7 +157,7 @@
 .carousel-container
 {
 	position:relative;
-	width:100%;
+	width:100% !importnant;
 }
 
 .carousel-container .carousel-wrapper
