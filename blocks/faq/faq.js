@@ -1,4 +1,6 @@
-$("faq-wrapper .faq h3").on("click" , function(){
+$(".faq-wrapper .faq h3").on("click" , function(){
 
   console.log("Hello");
 })
+
+// document.querySelector()
