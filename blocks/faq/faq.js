@@ -9,18 +9,23 @@ elements.forEach(element => {
   spanElement.classList.add('clickArrow');
   element.insertAdjacentElement('afterend', spanElement)
   element.parentElement.classList.add('clickparent')
-  element.addEventListener('click', function() {
-    const parentElement = element.parentElement; 
-    // Find the sibling of the parent element 
-    const siblingOfParent = parentElement.nextElementSibling;
-    if (siblingOfParent.style.display === 'none') 
+ 
+});
+
+const elementsclick = document.querySelectorAll(".clickparent")
+elementsclick.forEach(element => {
+   element.addEventListener('click', function() {
+
+    const sibling = element.nextElementSibling;
+    if (sibling.style.display === 'none') 
     { 
-      siblingOfParent.style.display = 'block'; 
+      sibling.style.display = 'block'; 
     } else { 
-      siblingOfParent.style.display = 'none'; 
+      sibling.style.display = 'none'; 
     }
  
   });
-});
+})
+
 
 
