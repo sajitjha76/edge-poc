@@ -25,7 +25,7 @@
 .clickArrow:before 
 {
     content: "";
-    background-image : url(https://www.asianpaints.com/etc.clientlibs/apcolourcatalogue/components/content/faq/clientlibs/resources/images/plus-icon.svg)
+    background-image : url(https://www.asianpaints.com/etc.clientlibs/apcolourcatalogue/components/content/faq/clientlibs/resources/images/plus-icon.svg);
     width: 13px;
     height: 13px;
     background-position: 50%;
