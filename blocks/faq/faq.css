@@ -5,9 +5,15 @@
 .faq-container .faq-wrapper .faq.block > div 
 {
     border-bottom: 1px solid #cacbcc;
+    padding: 30px 0;
 }
 
 .faq-container .faq-wrapper .faq.block > div h3
 {
     cursor:pointer;
+    width: 85%;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 23.4px;
+    margin: 0;
 }
