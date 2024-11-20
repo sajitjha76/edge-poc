@@ -18,15 +18,15 @@ elementsclick.forEach(element => {
    element.addEventListener('click', function() {
 
     const sibling = element.nextElementSibling;
-    if (sibling.style.display === 'none') 
+    if (sibling.classList.contains('show')) {
     { 
      
       sibling.classList.add('show');
-       sibling.style.display = 'block'; 
+       // sibling.style.display = 'block'; 
       element.querySelector('span').classList.add('clickArrowAfter')
       element.querySelector('span').classList.remove('clickArrow')
     } else { 
-      sibling.style.display = 'none'; 
+      // sibling.style.display = 'none'; 
       sibling.classList.remove('show');
       element.querySelector('span').classList.add('clickArrow')
       element.querySelector('span').classList.remove('clickArrowAfter')
