@@ -20,16 +20,17 @@ elementsclick.forEach(element => {
     const sibling = element.nextElementSibling;
     if (sibling.classList.contains('show')) 
     { 
-     
-      sibling.classList.add('show');
-       // sibling.style.display = 'block'; 
-      element.querySelector('span').classList.add('clickArrowAfter')
-      element.querySelector('span').classList.remove('clickArrow')
-    } else { 
-      // sibling.style.display = 'none'; 
+         // sibling.style.display = 'none'; 
       sibling.classList.remove('show');
       element.querySelector('span').classList.add('clickArrow')
       element.querySelector('span').classList.remove('clickArrowAfter')
+    
+    } else { 
+        sibling.classList.add('show');
+       // sibling.style.display = 'block'; 
+      element.querySelector('span').classList.add('clickArrowAfter')
+      element.querySelector('span').classList.remove('clickArrow')
+  
     }
  
   });
