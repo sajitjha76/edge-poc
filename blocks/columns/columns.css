@@ -155,7 +155,7 @@ height:127px;
     height: fit-content;
     width: 322px;
     border-bottom: 1px solid rgba(67, 26, 128, 0.2);
-    padding: 20px 0 3px 30px;
+    padding: 20px 0 30px 30px;
 }
 .bestsuits > div .columns-img-col:nth-of-type(1)
 {
