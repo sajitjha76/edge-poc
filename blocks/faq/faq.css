@@ -1,3 +1,10 @@
+#faqs
+{
+        font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin:0 0 10px 0;
+}
 .faq-container .faq-wrapper
 {
     max-width:100%;
