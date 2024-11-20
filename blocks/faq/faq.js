@@ -18,7 +18,7 @@ elementsclick.forEach(element => {
    element.addEventListener('click', function() {
 
     const sibling = element.nextElementSibling;
-    if (sibling.classList.contains('show')) {
+    if (sibling.classList.contains('show')) 
     { 
      
       sibling.classList.add('show');
