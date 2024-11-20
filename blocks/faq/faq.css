@@ -6,3 +6,8 @@
 {
     border-bottom: 1px solid #cacbcc;
 }
+
+.faq-container .faq-wrapper .faq.block > div h3
+{
+    cursor:pointer;
+}
