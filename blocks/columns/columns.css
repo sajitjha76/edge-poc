@@ -295,7 +295,7 @@ content: "";
     justify-content: space-between;
     row-gap: 35px;
     column-gap: 20px;
-
+}
 .howworks > div 
 {
 	    align-items: flex-start;
