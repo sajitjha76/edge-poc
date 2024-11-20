@@ -8,6 +8,14 @@
 {
     display:none;
 }
+.faq-container .faq-wrapper .faq.block > div  div:nth-of-type(2) p
+{
+        font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #53565a;
+    margin-bottom: 0;
+}
 .faq-container .faq-wrapper .faq.block > div 
 {
     border-bottom: 1px solid #cacbcc;
