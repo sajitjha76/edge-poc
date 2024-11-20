@@ -80,7 +80,7 @@ height:127px;
     height: 24px;
 }
 
-.section.columns-container .columns-wrapper .telephone > div .columns-img-col:nth-of-type(0) img{
+.section.columns-container .columns-wrapper .telephone > div .columns-img-col:nth-of-type(1) img{
 		width:auto;
 		height:auto
 }
