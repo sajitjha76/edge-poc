@@ -21,8 +21,12 @@ elementsclick.forEach(element => {
     if (sibling.style.display === 'none') 
     { 
       sibling.style.display = 'block'; 
+      element.querySelector('span').classList.add('clickArrowAfter')
+      element.querySelector('span').classList.remove('clickArrow')
     } else { 
       sibling.style.display = 'none'; 
+      element.querySelector('span').classList.add('clickArrow')
+      element.querySelector('span').classList.remove('clickArrowAfter')
     }
  
   });
