@@ -245,3 +245,99 @@ content: "";
     background-repeat: no-repeat;
     display: block;
 }
+/* Asian Paints Beautiful Homes Painting */
+
+.beautifulhome
+{
+	    background-color: #f8f8f8;
+}
+
+.beautifulhome > div div:nth-of-type(2) a 
+{
+	    width: auto;
+    cursor: pointer !important;
+    color: #fff;
+    display: inline-block;
+    background: #431a80;
+    border: 1px solid #431a80;
+    line-height: 16px;
+    padding: 16px 20px;
+    width: 270px;
+    border-radius: 2px;
+    font-size: 13px;
+    letter-spacing: .86px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+
+/* How It Works */
+
+
+#how-it-works
+{
+	font-size: 32px;
+    font-weight: 800;
+    line-height: 35.2px;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.howworks
+{
+  	padding: 60px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    row-gap: 35px;
+    column-gap: 20px;
+
+.howworks > div 
+{
+	    align-items: flex-start;
+    flex-basis: 30%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: inherit;
+    gap: unset;
+}
+
+.howworks > div .columns-img-col 
+{
+	    min-width: 15%;
+    padding-top: 7px;
+flex: none;
+}
+
+.howworks > div .columns-img-col img 
+{
+	object-fit: contain;
+    height: auto;
+    width: auto;
+}
+.howworks > div div:nth-of-type(2)
+{
+	margin-left: 25px;
+}
+
+.howworks > div div:nth-of-type(2) h2 {
+font-size: 20px;
+    font-weight: 800;
+    line-height: 27.32px;
+    margin-bottom: 6px;
+    color: #3b3d40;
+    margin-top: 0;
+
+}
+
+.howworks > div div:nth-of-type(2) p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.86px;
+    color: #53565a;
+    margin-top: 0;
+}
