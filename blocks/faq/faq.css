@@ -17,3 +17,18 @@
     line-height: 23.4px;
     margin: 0;
 }
+.clickparent
+{
+    display: flex;
+    justify-content: space-between;
+}
+.clickArrow:before 
+{
+    content: "";
+    background-image : url(https://www.asianpaints.com/etc.clientlibs/apcolourcatalogue/components/content/faq/clientlibs/resources/images/plus-icon.svg)
+    width: 13px;
+    height: 13px;
+    background-position: 50%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
