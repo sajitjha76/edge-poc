@@ -125,3 +125,123 @@ height:127px;
         font-weight: 500;
         color: #838383;
 }
+#choose-a-plan-that-best-suits-you
+{
+	font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 35.2px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.bestsuits  > div{
+	    gap: 38px;
+    padding: 0 45px;
+    justify-content: center;
+}
+.bestsuits  div:nth-of-type(2) 
+{
+	align-item:unset
+}
+
+.bestsuits > div .columns-img-col 
+{
+	 background-color: #FFFF;
+    box-shadow: 1px 6px 25px -4px #10182829;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    height: fit-content;
+    width: 322px;
+    border-bottom: 1px solid rgba(67, 26, 128, 0.2);
+    padding: 20px 0 3px 30px;
+}
+.bestsuits > div .columns-img-col:nth-of-type(1)
+{
+	border-top: 10px solid #7ec781;
+}
+.bestsuits > div .columns-img-col:nth-of-type(2)
+{
+	border-top: 10px solid #e8bd68;
+}
+.bestsuits > div .columns-img-col:nth-of-type(3)
+{
+	    border-top: 10px solid #373d65;
+}
+.bestsuits > div .columns-img-col p 
+{
+	    display: flex;
+
+      
+}
+
+
+.bestsuits > div .columns-img-col img 
+{
+	border-radius: 50%;
+    background: #7ec781;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.bestsuits > div .columns-img-col strong
+{
+font-weight: 800;
+    font-size: 32px;
+    color: #232426;
+    /* padding-top: 65px; */
+    transform: translate(-23px, 15px);
+    width: fit-content;
+    margin: 0;
+}
+
+.bestsuits > div .columns-img-col:nth-of-type(2) p strong
+{
+	color: #e8bd68
+}
+.bestsuits > div .columns-img-col:nth-of-type(3) p strong
+{
+	color: #373d65
+}
+
+.bestsuits  div:nth-of-type(2) div
+{
+	box-shadow: 1px 6px 25px -4px #10182829;
+    padding: 20px 0 30px 30px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.bestsuits  div:nth-of-type(2) div p{
+	margin:0;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.4px;
+    color: #75787b;
+}
+.bestsuits  div:nth-of-type(2) div ul
+{
+	padding:0;
+}
+.bestsuits  div:nth-of-type(2) div ul li 
+{
+	font-size: 14px;
+    font-weight: 400;
+    color: #1d1d1f;
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+}
+.bestsuits  div:nth-of-type(2) div ul li:before 
+{
+content: "";
+    background-image: url(https://www.asianpaints.com/etc.clientlibs/apcolourcatalogue/components/content/choosePlan/clientlibs/resources/images/black-tick.svg);
+    width: 8px;
+    height: 6px;
+    background-repeat: no-repeat;
+    display: block;
+}
