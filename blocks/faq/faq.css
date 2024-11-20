@@ -19,7 +19,7 @@
     transition: max-height 0.5s ease-in-out;
 }
 .show { 
-    max-height: 50px; 
+    max-height: 50px !important; 
 }
 .faq-container .faq-wrapper .faq.block > div  div:nth-of-type(2) p
 {
