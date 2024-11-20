@@ -10,3 +10,5 @@ elements.forEach(element => {
     alert('Element with class1 and class2 clicked!');
   });
 });
+
+ console.log("Hello");
