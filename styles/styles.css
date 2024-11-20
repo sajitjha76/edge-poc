@@ -260,11 +260,11 @@ main
 {
     margin-top: 8% !important;
 }
-//Carousal Start
+/*Carousal Start */
 .carousel-container
 {
 	position:relative;
-	width:100%
+	width:100%;
 }
 
 .carousel-container .carousel-wrapper
