@@ -179,11 +179,11 @@ export default async function decorate(block) {
   // load nav as fragment
   const navMeta = getMetadata('nav');
   //const navPath = navMeta ? new URL(navMeta, window.location).pathname : '/nav';
-  var footerPagePath = '/nav';  
-  if (window.location.pathname.startsWith('/fr/')) {    
-    footerPagePath = '/fr/nav';  
+  var headerPagePath = '/nav';  
+  if (window.location.pathname.startsWith('/fr')) {    
+    headerPagePath = '/fr/nav';  
   }
-  const navPath = navMeta ? new URL(navMeta, window.location).pathname : footerPagePath;
+  const navPath = navMeta ? new URL(navMeta, window.location).pathname : headerPagePath;
   const fragment = await loadFragment(navPath);
 
   // decorate nav DOM
