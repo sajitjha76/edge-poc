@@ -14,6 +14,7 @@ elements.forEach(element => {
 
 const elementsclick = document.querySelectorAll(".clickparent")
 elementsclick.forEach(element => {
+  element.style.display === 'none'
    element.addEventListener('click', function() {
 
     const sibling = element.nextElementSibling;
