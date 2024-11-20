@@ -20,11 +20,13 @@ elementsclick.forEach(element => {
     const sibling = element.nextElementSibling;
     if (sibling.style.display === 'none') 
     { 
-      sibling.style.display = 'block'; 
+      // sibling.style.display = 'block'; 
+      sibling.classList.add('show');
       element.querySelector('span').classList.add('clickArrowAfter')
       element.querySelector('span').classList.remove('clickArrow')
     } else { 
       sibling.style.display = 'none'; 
+      sibling.classList.remove('show');
       element.querySelector('span').classList.add('clickArrow')
       element.querySelector('span').classList.remove('clickArrowAfter')
     }
