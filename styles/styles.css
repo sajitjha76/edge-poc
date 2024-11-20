@@ -261,14 +261,13 @@ main
     margin-top: 8% !important;
 }
 //Carousal Start
-
-.section.carousel-container
+.carousel-container
 {
 	position:relative;
 	width:100%
 }
 
-.section.carousel-container .carousel-wrapper
+.carousel-container .carousel-wrapper
 {
 	max-width: 100%;
     width: 100%;
