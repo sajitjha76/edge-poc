@@ -3,7 +3,7 @@
 //   console.log("Hello");
 // })
 
-// const elements = document.querySelector(".faq-wrapper .faq h3")
+const elements = document.querySelector(".faq-wrapper .faq h3")
 // elements.forEach(element => {
 //   // Attach a click event listener
 //   element.addEventListener('click', function() {
