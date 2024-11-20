@@ -13,7 +13,6 @@
 }
 .faq-container .faq-wrapper .faq.block > div  div:nth-of-type(2)
 {
-    display:none;
     max-height: 0;
     overflow: hidden; 
     width:92%;
