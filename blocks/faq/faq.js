@@ -5,10 +5,13 @@
 
 const elements = document.querySelectorAll(".faq-wrapper .faq h3")
 elements.forEach(element => {
-  // Attach a click event listener
-  element.addEventListener('click', function() {
-    alert('Element with class1 and class2 clicked!');
+  element.addEventListener('click', function(e) {
+    const parentElement = e.parentElement; 
+    // Find the sibling of the parent element 
+    const siblingOfParent = parentElement.nextElementSibling;
+    console.log(siblingOfParent)
+ 
   });
 });
 
- console.log("Hello" , elements);
+
