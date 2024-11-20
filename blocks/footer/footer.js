@@ -10,7 +10,7 @@ export default async function decorate(block) {
   const footerMeta = getMetadata('footer');
   //const footerPath = footerMeta ? new URL(footerMeta, window.location).pathname : '/footer';
   var footerPagePath = '/footer';
-  if (window.location.pathname.startsWith('/blogs/')) {  
+  if (window.location.pathname.startsWith('/fr/')) {  
     footerPagePath = '/fr/footer';
   }
   const footerPath = footerMeta ? new URL(footerMeta, window.location).pathname : footerPagePath;
