@@ -1,18 +1,3 @@
-/* Absolute Text Container */
-.section.carousel-container.form-container > .text-wrapper
-{
-	position:absolute;
-	background: #ffffff;
-	max-width: 40%;
-    width: 80%;
-	top:0;
-}
-.section.carousel-container.form-container > .text-wrapper p 
-{
-	margin: 0;
-    font-weight: 700;
-    font-size: 20px;
-}
 
 .carousel .carousel-slides-container {
   position: relative;
@@ -173,6 +158,22 @@
   }
 }
 /*Carousal Start */
+
+/* Absolute Text Container */
+.section.carousel-container.form-container > .text-wrapper
+{
+	position:absolute;
+	background: #ffffff;
+	max-width: 40%;
+    width: 80%;
+	top:0;
+}
+.section.carousel-container.form-container > .text-wrapper p 
+{
+	margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+}
 .carousel-container
 {
 	position:relative;
