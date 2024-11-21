@@ -3,8 +3,8 @@ import { fetchPlaceholders } from '../../scripts/aem.js';
 
 window.addEventListener('resize', function() {
   console.log("Resize")
-const divElement = document.querySelector('.section.carousel-container.form-container.text-container .text-wrapper'); 
-const height = divElement.offsetHeight; 
+let divElement = document.querySelector('.section.carousel-container.form-container.text-container .text-wrapper'); 
+let height = divElement.offsetHeight; 
   let top = height + 'px'
   console.log(top)
   const divElementTwo = document.querySelector('.section.carousel-container.form-container.text-container .form-wrapper'); 
