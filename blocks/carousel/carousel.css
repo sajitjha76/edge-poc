@@ -224,10 +224,10 @@
     position: absolute;
     top: 50px;
     right: 3%;
-    bottom: 0 !important;
+    bottom: unset !important;
     display: block;
     box-sizing: border-box;
-    height: 85%;
+/*     height: 85%; */
     margin: 0;
 }
 
