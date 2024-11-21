@@ -15,6 +15,21 @@ import { fetchPlaceholders } from '../../scripts/aem.js';
 // });
 // })
 
+// Select the div element
+const divElement = document.querySelector('.checkbox-wrapper');
+
+// Create a new span element
+const spanElement = document.createElement('span');
+
+// Add some text to the span element
+spanElement.textContent = ' By proceeding, you
+                                        are authorizing Asian Paints and its suggested contractors to get in touch with you through
+                                        calls, sms, or e-mail';
+
+// Append the span element to the div element
+divElement.appendChild(spanElement);
+
+
 function updateActiveSlide(slide) {
   const block = slide.closest('.carousel');
   const slideIndex = parseInt(slide.dataset.slideIndex, 10);
