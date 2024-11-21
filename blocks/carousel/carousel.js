@@ -2,9 +2,11 @@
 import { fetchPlaceholders } from '../../scripts/aem.js';
 
 document.addEventListener('DOMContentLoaded', function() {
+
 // Select the div element
 const divElement = document.getElementsByClassName('checkbox-wrapper');
-console.log(divElement)
+    if (element && element.appendChild) {
+    console.log(divElement)
 // Create a new span element
 const spanElement = document.createElement('span');
 
@@ -13,6 +15,8 @@ spanElement.textContent = 'By proceeding, yo are authorizing Asian Paints and it
 spanElement.classList.add('seclabel')
 // Append the span element to the div element
 divElement[0].appendChild(spanElement);
+  }
+
 
   
 })
