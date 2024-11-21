@@ -1,20 +1,6 @@
 
 import { fetchPlaceholders } from '../../scripts/aem.js';
 
-
-// window.addEventListener('resize', function() {
-// window.requestAnimationFrame(function(){
-//   console.log("Resize")
-// let divElement = document.querySelector('.section.carousel-container.form-container.text-container .text-wrapper'); 
-// let height = divElement.offsetHeight; 
-//   console.log(height)
-//   let top = height + 'px'
-//   console.log(top)
-//   const divElementTwo = document.querySelector('.section.carousel-container.form-container.text-container .form-wrapper'); 
-  
-// });
-// })
-
 // Select the div element
 const divElement = document.querySelector('.checkbox-wrapper');
 
