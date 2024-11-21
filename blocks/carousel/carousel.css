@@ -249,7 +249,7 @@ align-self: flex-start;
 
 .section.carousel-container .form-wrapper form .button-wrapper button 
 {
-	margin: 0 0 10px 0;
+	margin:0;
     background: #431a80;
     border-color: #431a80;
     border-radius: 0;
