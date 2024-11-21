@@ -93,7 +93,8 @@
 .faq-container p.button-container
 {
 	margin:0;
-tex-align:center;
+text-align:center;
+	margin-top:20px;
 }
 .faq-container p.button-container a 
 {
