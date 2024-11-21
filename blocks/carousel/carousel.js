@@ -8,10 +8,8 @@ const divElement = document.querySelector('.checkbox-wrapper');
 const spanElement = document.createElement('span');
 
 // Add some text to the span element
-spanElement.textContent = ' By proceeding, you
-                                        are authorizing Asian Paints and its suggested contractors to get in touch with you through
-                                        calls, sms, or e-mail';
-
+spanElement.textContent = 'By proceeding, yo are authorizing Asian Paints and its suggested contractors to get in touch with you throug calls, sms, or e-mail';
+spanElement.classList.add('seclabel')
 // Append the span element to the div element
 divElement.appendChild(spanElement);
 
