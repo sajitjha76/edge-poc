@@ -15,13 +15,54 @@
 .cards .cards-card-body {
   margin: 16px;
 }
+.cards-nav #left-arrow {
+  margin-right: 30px;
+  font-size: 25px;
+}
+.cards-nav #right-arrow {
+  font-size: 25px;
+}
 
 .cards .cards-card-image {
   line-height: 0;
 }
-
+.custom-tut .cards-card-body h3{
+  font-size: 16px;
+  line-height: 20px;
+  font-style: italic;
+  font-weight: 200;
+  padding-bottom: 5px;
+  font-family: "Manrope";
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+.custom-tut .cards-card-body p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #fff;
+}
+.custom-tut .cards-card-image{
+    margin: -18px 23px 40px 23px;
+}
+.custom-tut.cards > ul{
+    display: flex;
+    padding-top: 30px;
+}
+.custom-tut.cards > ul > li{
+    min-width:350px ;
+    background-color: #431a80;
+}
 .cards > ul > li img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+.cards-nav {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.custom-tut{
+ overflow: hidden;
 }
