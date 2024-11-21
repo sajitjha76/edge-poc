@@ -1,17 +1,17 @@
 
 import { fetchPlaceholders } from '../../scripts/aem.js';
-function updateDivHeight() {
+
+
+window.addEventListener('resize', function() {
+window.requestAnimationFrame(function(){
   console.log("Resize")
 let divElement = document.querySelector('.section.carousel-container.form-container.text-container .text-wrapper'); 
 let height = divElement.offsetHeight; 
   let top = height + 'px'
   console.log(top)
   const divElementTwo = document.querySelector('.section.carousel-container.form-container.text-container .form-wrapper'); 
-
-})
-
-window.addEventListener('resize', function() {
-window.requestAnimationFrame(updateDivHeight);
+  
+});
 })
 
 function updateActiveSlide(slide) {
