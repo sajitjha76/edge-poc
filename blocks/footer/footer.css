@@ -152,6 +152,16 @@ max-width: 100%;
 }  
   .footer .section.columns-container .default-content-wrapper:nth-of-type(1) {
    background: #2f2f2f;
+	   padding: 40px 32px 24px;
+	}
+	.footer .section.columns-container .default-content-wrapper:nth-of-type(1) p {
+		    font-size: 16px;
+    font-weight: 800;
+    line-height: 21.86px;
+    color: #fff;
+    padding-top: 20px;
+		padding-bottom:20px;
+		margin:0;
 	}
     .footer .section.columns-container .default-content-wrapper:nth-of-type(2) {
     background-color: #333;
