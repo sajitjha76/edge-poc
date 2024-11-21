@@ -3,7 +3,7 @@ import { fetchPlaceholders } from '../../scripts/aem.js';
 
 // Select the div element
 const divElement = document.querySelector('.checkbox-wrapper');
-
+console.log(divElement)
 // Create a new span element
 const spanElement = document.createElement('span');
 
