@@ -1,3 +1,11 @@
+/* Absolute Text Container */
+.section.carousel-container.form-container > .text-wrapper
+{
+	position:absolute;
+	background: #ffffff;
+	max-width: 40%;
+    width: 80%;
+}
 
 .carousel .carousel-slides-container {
   position: relative;
