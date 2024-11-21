@@ -202,7 +202,7 @@ max-width: 100%;
 	.footerbottom > div div:nth-of-type(1) p 
 	{
 		    color: #fff !important;
-		background: url (https://www.asianpaints.com/etc.clientlibs/apcolourcatalogue/clientlibs/clientlib-global/resources/images/copyright-icon.webp) no-repeat 0;
+		background: url(https://www.asianpaints.com/etc.clientlibs/apcolourcatalogue/clientlibs/clientlib-global/resources/images/copyright-icon.webp) no-repeat 0;
     font-size: 13px;
     line-height: 100%;
     padding-left: 15px;
