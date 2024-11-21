@@ -185,7 +185,11 @@ max-width: 100%;
 	.footerbottom .columns-img-col p 
 	{
 		display:flex;
-		text-align: right;
+		justify-content:flex-end;
+	}
+	.footerbottom .columns-img-col p picture 
+	{
+		
 	}
 	.footerbottom .columns-img-col p img {
 		margin: 20px 10px !important;
