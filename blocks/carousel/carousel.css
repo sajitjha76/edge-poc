@@ -234,6 +234,12 @@
 {
 	display:block;
 }
+.section.carousel-container .form-wrapper .button-container .checkbox-wrapper .field-label
+{
+	margin-left: 23px;
+    transform: translateY(-19px);
+    display: block;
+}
 
 .section.carousel-container .form-wrapper p
 {
