@@ -187,11 +187,11 @@ max-width: 100%;
 		display:flex;
 	}
 }
-.footer .section.columns-container .default-content-wrapper:nth-of-type(3) {
+.footer .section.columns-container .columns-wrapper:nth-of-type(3) {
    		 background: #333333;
 	
 	}
-	.footer .section.columns-container .default-content-wrapper:nth-of-type(3) p {
+	.footer .section.columns-container .columns-wrapper:nth-of-type(3) p {
    	display:flex;
 		        max-width: 1140px;
 		width: 100%;
