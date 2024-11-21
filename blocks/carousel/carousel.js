@@ -11,7 +11,7 @@ const spanElement = document.createElement('span');
 spanElement.textContent = 'By proceeding, yo are authorizing Asian Paints and its suggested contractors to get in touch with you throug calls, sms, or e-mail';
 spanElement.classList.add('seclabel')
 // Append the span element to the div element
-divElement.appendChild(spanElement);
+// divElement.appendChild(spanElement);
 
 
 function updateActiveSlide(slide) {
