@@ -229,6 +229,10 @@
     box-sizing: border-box;
 /*     height: 85%; */
     margin: 0;
+} 
+.section.carousel-container .form-wrapper .button-container .checkbox-wrapper
+{
+	display:block;
 }
 
 .section.carousel-container .form-wrapper p
