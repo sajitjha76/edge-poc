@@ -182,6 +182,10 @@ max-width: 100%;
 	.footerasianpaint > div div img {
 		height:auto;
 	}
+	.footerbottom .columns-img-col p 
+	{
+		display:flex;
+	}
 }
 .footer .section.columns-container .default-content-wrapper:nth-of-type(3) {
    		 background: #333333;
