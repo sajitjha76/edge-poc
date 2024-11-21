@@ -185,11 +185,12 @@ max-width: 100%;
 	.footerbottom .columns-img-col p 
 	{
 		display:flex;
-		tex-align: right;
+		text-align: right;
 	}
 	.footerbottom .columns-img-col p img {
 		margin: 20px 10px !important;
     display: inline-block;
+		height:auto;
 	}
 		.footerbottom {
 		
