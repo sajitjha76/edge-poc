@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Select the div element
 const divElement = document.getElementsByClassName('checkbox-wrapper');
-    if (element && element.appendChild) {
+    if (divElement && divElement.appendChild) {
     console.log(divElement)
 // Create a new span element
 const spanElement = document.createElement('span');
