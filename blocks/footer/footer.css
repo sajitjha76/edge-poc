@@ -189,10 +189,10 @@ max-width: 100%;
 	}
 	.footerbottom .columns-img-col p picture 
 	{
-		
+		margin: 20px 10px !important;
 	}
 	.footerbottom .columns-img-col p img {
-		margin: 20px 10px !important;
+		
     display: inline-block;
 		height:auto;
 	}
