@@ -89,3 +89,32 @@
     position: absolute;
     background-repeat: no-repeat;   
 }
+
+.faq-container p.button-container
+{
+	margin:0;
+tex-align:center;
+}
+.faq-container p.button-container a 
+{
+	background: #431a80;
+    border: 1px solid #431a80;
+    color: #fff;
+    display: inline-block;
+    line-height: 16px;
+    padding: 16px 20px;
+    width: 100%;
+    width: 270px;
+    border-radius: 2px;
+    font-size: 13px;
+    letter-spacing: .86px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+}
+.faq-container p.button-container a:hover 
+{
+	color: #fff;
+    background: #5e25b2;
+}
