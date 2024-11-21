@@ -163,9 +163,7 @@ max-width: 100%;
 		padding-bottom:20px;
 		margin:0;
 	}
-    .footer .section.columns-container .default-content-wrapper:nth-of-type(2) {
-   		 background: #333333;
-	}
+ 
 	.footerasianpaint > div {
 
 		display: flex;
@@ -185,5 +183,8 @@ max-width: 100%;
 		height:auto;
 	}
 }
+.footer .section.columns-container .default-content-wrapper:nth-of-type(2) {
+   		 background: #333333;
+	}
 
     
