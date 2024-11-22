@@ -2,22 +2,17 @@
 import { fetchPlaceholders } from '../../scripts/aem.js';
 
 const elements = document.getElementsByClassName('button-wrapper'); 
+const spanElement = document.createElement('span');
+ spanElement.textContent = 'By proceeding, yo are authorizing Asian Paints and its suggested contractors to get in touch with you throug calls, sms, or e-mail';
+spanElement.classList.add('seclabel')
+const container = elements.parentNode; 
 setTimeout(function(){
   console.log(elements , elements[0])
-}, 500)
+  container.insertBefore(spanElement, elements[0]);
+}, 1000)
 
-if(elements.length > 0){
-  
-  const elementsArray = [...elements];
-  console.log(elementsArray)
-}
-// const elementsArray = Array.from(elements); 
 
-// elementsArray.forEach(function(element, index) 
-// {
-//     console.log(`Element ${index + 1}:`, element.textContent); 
 
-//     });
 
             
    
