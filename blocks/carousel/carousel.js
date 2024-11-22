@@ -5,9 +5,10 @@ const elements = document.getElementsByClassName('button-wrapper');
 const spanElement = document.createElement('span');
  spanElement.textContent = 'By proceeding, yo are authorizing Asian Paints and its suggested contractors to get in touch with you throug calls, sms, or e-mail';
 spanElement.classList.add('seclabel')
-const container = elements.parentNode; 
-console.log(container)
+
 setTimeout(function(){
+  const container = elements.parentNode; 
+console.log(container)
   console.log(elements , elements[0])
   container.insertBefore(spanElement, elements[0]);
 }, 1000)
