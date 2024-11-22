@@ -269,12 +269,12 @@ align-self: flex-start;
 	}
 .seclabel
 {
-	    font-size: 11px;
-    line-height: 13.41px;
-    padding: 0;
-    margin-bottom: 0;
-	color: #431a80;
-    font-weight: 400;
+	    font-size: 11px !important;
+    line-height: 13.41px !important;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+	color: #431a80 !important;
+    font-weight: 400 !important;
 }
 //Carousal End
 
