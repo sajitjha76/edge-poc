@@ -1,17 +1,14 @@
 
 import { fetchPlaceholders } from '../../scripts/aem.js';
 
-const elements = document.getElementsByClassName('button-wrapper'); 
+const elements = document.getElementsByClassName('checkbox-wrapper'); 
 const spanElement = document.createElement('p');
  spanElement.textContent = 'By proceeding, yo are authorizing Asian Paints and its suggested contractors to get in touch with you throug calls, sms, or e-mail';
 spanElement.classList.add('seclabel')
 
 setTimeout(function(){
-  const container = elements.parentNode; 
-console.log(container)
-  console.log(elements , elements[0])
-  // container.insertBefore(spanElement, elements[0]);
-  elements[0].insertAdjacentElement('beforebegin', spanElement);
+elements[0].appendChild(spanElement);
+  // elements[0].insertAdjacentElement('beforebegin', spanElement);
 }, 1000)
 
 
