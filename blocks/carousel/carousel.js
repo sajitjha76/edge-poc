@@ -2,8 +2,12 @@
 import { fetchPlaceholders } from '../../scripts/aem.js';
 
 const elements = document.getElementsByClassName('button-wrapper'); 
-console.log(elements , elements[0])
+settimeout(function(){
+  console.log(elements , elements[0])
+}, 100)
+
 if(elements.length > 0){
+  
   const elementsArray = [...elements];
   console.log(elementsArray)
 }
