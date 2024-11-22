@@ -10,7 +10,8 @@ setTimeout(function(){
   const container = elements.parentNode; 
 console.log(container)
   console.log(elements , elements[0])
-  container.insertBefore(spanElement, elements[0]);
+  // container.insertBefore(spanElement, elements[0]);
+  elements[0].insertAdjacentElement('beforebegin', spanElement);
 }, 1000)
 
 
