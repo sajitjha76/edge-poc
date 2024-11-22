@@ -267,5 +267,14 @@ align-self: flex-start;
     text-align: center;
     display: inline-block;
 	}
+.seclabel
+{
+	    font-size: 11px;
+    line-height: 13.41px;
+    padding: 0;
+    margin-bottom: 0;
+	color: #431a80;
+    font-weight: 400;
+}
 //Carousal End
 
