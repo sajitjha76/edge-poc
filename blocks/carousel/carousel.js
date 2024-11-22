@@ -1,25 +1,24 @@
 
 import { fetchPlaceholders } from '../../scripts/aem.js';
 
-  document.addEventListener('DOMContentLoaded', function() {
+  
   
   // Select the div element
-  const divElement = document.getElementsByClassName('checkbox-wrapper');
-      if (divElement) {
-      console.log(divElement)
-  // Create a new span element
-  const spanElement = document.createElement('span');
-  
-  // Add some text to the span element
-  spanElement.textContent = 'By proceeding, yo are authorizing Asian Paints and its suggested contractors to get in touch with you throug calls, sms, or e-mail';
-  spanElement.classList.add('seclabel')
-  // Append the span element to the div element
-  divElement[0].appendChild(spanElement);
-    }
-  
-  
+    const divElement = document.getElementsByClassName('checkbox-wrapper');
+        if (divElement) {
+        console.log(divElement)
+    // Create a new span element
+    const spanElement = document.createElement('span');
     
-  })
+    // Add some text to the span element
+    spanElement.textContent = 'By proceeding, yo are authorizing Asian Paints and its suggested contractors to get in touch with you throug calls, sms, or e-mail';
+    spanElement.classList.add('seclabel')
+    // Append the span element to the div element
+    divElement[0].appendChild(spanElement);
+      }
+  
+  
+
 
 
 
