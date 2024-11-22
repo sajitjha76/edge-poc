@@ -1,8 +1,19 @@
 
 import { fetchPlaceholders } from '../../scripts/aem.js';
 
- let  divElement = document.getElementsByClassName('checkbox-wrapper');
-console.log(divElement)
+//  let  divElement = document.getElementsByClassName('checkbox-wrapper');
+// console.log(divElement)
+const elements = document.getElementsByClassName('checkbox-wrapper'); 
+console.log(elements)
+const elementsArray = Array.from(elements); 
+
+
+
+elementsArray.forEach(function(element, index) 
+{
+    console.log(`Element ${index + 1}:`, element.textContent); 
+
+    });
 
             
    
