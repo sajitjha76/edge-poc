@@ -1,4 +1,11 @@
+.video-container 
+{
 
+    background-image: url(https://www.asianpaints.com/content/dam/asian_paints/products/video-thumbnails/video-background-full.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+}
 .video {
   text-align: center;
   max-width: 900px;
