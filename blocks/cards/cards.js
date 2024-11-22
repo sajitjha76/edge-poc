@@ -15,12 +15,11 @@ export default function decorate(block) {
   block.textContent = '';
   block.append(ul);
  
-  // Add a delay to ensure the DOM is fully loaded
+ 
   setTimeout(() => {
-    // Add the navigation arrows
+    // Add the navigation arrows only if they don't exist
     let cardsNav = document.querySelector('.cards-nav');
     if (!cardsNav) {
-      // Create and insert the arrows if they do not exist
       const cardsContainer = document.querySelector('.cards.custom-tut.block');
       cardsNav = document.createElement('div');
       cardsNav.className = 'cards-nav';
@@ -41,19 +40,19 @@ export default function decorate(block) {
       cardsContainer.insertAdjacentElement('beforebegin', cardsNav);
  
       const cardsList = document.querySelector('.cards.custom-tut.block ul');
-      console.log(cardsList , 'cardsList');
       const cards = document.querySelectorAll('.cards.custom-tut.block ul li');
-      console.log(cards, 'cards');
       const cardWidth = 364; // Including margin
       const visibleCards = 2;
       const maxIndex = cards.length;
       let cardIndex = 0;
  
+      // Update card position function
       const updateCardPosition = () => {
         if (cardIndex < maxIndex - visibleCards) {
           cardsList.style.transform = `translateX(${-cardIndex * cardWidth}px)`;
         }
-        // Clear previous styles
+ 
+        // Reset previous card styles
         cards.forEach(card => {
           const h3 = card.querySelector('h3');
           const p = card.querySelector('p');
@@ -134,7 +133,7 @@ export default function decorate(block) {
               prevButton.innerText = 'Prev';
               prevButton.style.position = 'absolute';
               prevButton.style.bottom = '0px';
-              prevButton.style.marginTop = '20px'
+              prevButton.style.marginTop = '20px';
               prevButton.style.right = '100px';
               prevButton.style.background = 'transparent';
               prevButton.style.border = 'none';
@@ -153,7 +152,7 @@ export default function decorate(block) {
               nextButton.innerText = 'Next';
               nextButton.style.position = 'absolute';
               nextButton.style.bottom = '0px';
-              nextButton.style.marginTop = '20px'
+              nextButton.style.marginTop = '20px';
               nextButton.style.right = '20px';
               nextButton.style.background = 'transparent';
               nextButton.style.border = 'none';
@@ -191,7 +190,6 @@ export default function decorate(block) {
       leftArrow.style.pointerEvents = 'none';
  
       leftArrow.addEventListener('click', () => {
-        console.log("click");
         if (cardIndex > 0) {
           cardIndex--;
           updateCardPosition();
@@ -205,7 +203,6 @@ export default function decorate(block) {
       });
  
       rightArrow.addEventListener('click', () => {
-        console.log("click");
         if (cardIndex < maxIndex - 1) {
           cardIndex++;
           updateCardPosition();
@@ -229,6 +226,52 @@ export default function decorate(block) {
       // Initial call to highlight the first card
       updateCardPosition();
     }
-  }, 2000); // Adjust the delay as needed
-}
  
+    // Carousel functionality for elements with the class slider
+    document.querySelectorAll('.cards.slider.block').forEach((block) => {
+      const ul = block.querySelector('ul');
+ 
+      // Create and insert the arrows if they do not exist
+      let cardsNav = document.createElement('div');
+      cardsNav.className = 'cards-nav';
+ 
+      const leftArrow = document.createElement('div');
+      leftArrow.className = 'arrow left-arrow';
+      leftArrow.innerHTML = '&larr;';
+      cardsNav.appendChild(leftArrow);
+ 
+      const rightArrow = document.createElement('div');
+      rightArrow.className = 'arrow right-arrow';
+      rightArrow.innerHTML = '&rarr;';
+      cardsNav.appendChild(rightArrow);
+ 
+      // Insert the navigation arrows before the cards container
+      block.insertAdjacentElement('beforebegin', cardsNav);
+ 
+      const cards = ul.querySelectorAll('li');
+ 
+      // Get card width dynamically
+      const cardWidth = cards[0].offsetWidth + parseInt(window.getComputedStyle(cards[0]).marginRight);
+      const visibleCards = Math.floor(block.offsetWidth / cardWidth);
+      let cardIndex = 0;
+ 
+      const updatePosition = () => {
+        ul.style.transform = `translateX(${-cardIndex * cardWidth}px)`;
+      };
+ 
+      leftArrow.addEventListener('click', () => {
+        if (cardIndex > 0) {
+          cardIndex--;
+          updatePosition();
+        }
+      });
+ 
+      rightArrow.addEventListener('click', () => {
+        if (cardIndex < cards.length - visibleCards) {
+          cardIndex++;
+          updatePosition();
+        }
+      });
+    });
+  }, 200); // Set timeout of 200ms instead of 2000ms
+}
