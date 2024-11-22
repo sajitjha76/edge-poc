@@ -71,6 +71,6 @@
   display: none;
 }
 .cards-wrapper .cards-nav:nth-of-type(1) {
-  display: flax;
+  display: flex;
 }
  
