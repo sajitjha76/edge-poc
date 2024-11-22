@@ -3,9 +3,11 @@ import { fetchPlaceholders } from '../../scripts/aem.js';
 
 const elements = document.getElementsByClassName('button-wrapper'); 
 console.log(elements)
+if(elements.length > 0){
+  const elementsArray = [...elements];
+  console.log(elementsArray)
+}
 // const elementsArray = Array.from(elements); 
-const elementsArray = [...elements];
-console.log(elementsArray)
 
 elementsArray.forEach(function(element, index) 
 {
