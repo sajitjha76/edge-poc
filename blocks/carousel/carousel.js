@@ -2,7 +2,7 @@
 import { fetchPlaceholders } from '../../scripts/aem.js';
 
 const elements = document.getElementsByClassName('button-wrapper'); 
-settimeout(function(){
+setTimeout(function(){
   console.log(elements , elements[0])
 }, 100)
 
