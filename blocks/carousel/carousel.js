@@ -2,7 +2,7 @@
 import { fetchPlaceholders } from '../../scripts/aem.js';
 
 const elements = document.getElementsByClassName('button-wrapper'); 
-const spanElement = document.createElement('span');
+const spanElement = document.createElement('p');
  spanElement.textContent = 'By proceeding, yo are authorizing Asian Paints and its suggested contractors to get in touch with you throug calls, sms, or e-mail';
 spanElement.classList.add('seclabel')
 
