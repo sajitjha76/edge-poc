@@ -73,4 +73,11 @@
 .cards-wrapper .cards-nav:nth-of-type(1) {
   display: flex;
 }
+ .cards-nav .arrow.left-arrow {
+      margin-right: 30px;
+      font-size: 25px;
+}
  
+.cards-nav .arrow.right-arrow {
+    font-size: 25px;
+  }
