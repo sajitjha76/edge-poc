@@ -88,8 +88,7 @@
     overflow:hidden;
 }
 
-/* .expand-text
-{
-    text-align: right;
-    margin-right:10px;
-} */
+.expand-text{
+   text-align: right;
+    margin-right: 10px;
+} 
