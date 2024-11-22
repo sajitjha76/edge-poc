@@ -1,4 +1,4 @@
-.cards .cards-card-body {
+        .cards .cards-card-body {
   margin: 16px;
 }
 .cards-nav #left-arrow {
@@ -65,7 +65,7 @@
 .slider.cards > ul > li {
   border: 1px solid #dadada;
   background-color: var(--background-color);
-  min-width: 257px;
+  min-width: 280px;
 }
 .cards-wrapper .cards-nav:nth-of-type(2) {
   display: none;
