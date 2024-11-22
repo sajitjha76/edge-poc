@@ -9,11 +9,11 @@ if(elements.length > 0){
 }
 // const elementsArray = Array.from(elements); 
 
-elementsArray.forEach(function(element, index) 
-{
-    console.log(`Element ${index + 1}:`, element.textContent); 
+// elementsArray.forEach(function(element, index) 
+// {
+//     console.log(`Element ${index + 1}:`, element.textContent); 
 
-    });
+//     });
 
             
    
