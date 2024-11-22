@@ -1,9 +1,8 @@
 
 import { fetchPlaceholders } from '../../scripts/aem.js';
 
-    const divElement = document.getElementsByClassName('checkbox-wrapper');
-    console.log(divElement , divElement[0]);
-  
+    const divElement = document.getElementsByClassName('checkbox-wrapper')[0];
+    console.log(divElement)  
   // Select the div element
     // const divElement = document.getElementsByClassName('checkbox-wrapper');
     //     if (divElement) {  
