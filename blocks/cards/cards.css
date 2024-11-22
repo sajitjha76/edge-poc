@@ -84,3 +84,6 @@
 .cards-nav .arrow.right-arrow {
     font-size: 25px;
   }
+.cards.slider.block {
+    overflow:hidden;
+}
