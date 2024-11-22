@@ -2,12 +2,9 @@
 import { fetchPlaceholders } from '../../scripts/aem.js';
 
  let  divElement = document.getElementsByClassName('checkbox-wrapper');
-const elementsArray = Array.from(divElement);
-console.log(elementsArray)
-elementsArray.forEach(function(element, index) {
-   console.log(divElement , element)  
-}
-                     )
+console.log(divElement)
+
+            
    
 
 
