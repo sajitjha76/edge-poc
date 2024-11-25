@@ -1,11 +1,11 @@
 
 /*hedaer Fr */
-r .nav-wrapper
+header.fr-header .nav-wrapper
 {
     border-bottom: 1px solid #535353;
 }
 @media (width >= 900px) {
-        header.fr-heade nav
+        header.fr-header nav
         {
              height: var(--nav-height);
         }        
