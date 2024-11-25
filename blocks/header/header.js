@@ -183,6 +183,8 @@ export default async function decorate(block) {
   if (window.location.pathname.startsWith('/fr/')) {    
     headerPagePath = '/fr/nav';  
     var frheader = document.querySelector("header");
+    var frMain = document.querySelector("main")
+    frMain.classList.add("fr-main")
     frheader.classList.add("fr-header")
   }
   const navPath = navMeta ? new URL(navMeta, window.location).pathname : headerPagePath;
