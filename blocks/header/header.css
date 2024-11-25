@@ -1,9 +1,16 @@
 
 /*hedaer Fr */
-header.fr-header .nav-wrapper
+r .nav-wrapper
 {
     border-bottom: 1px solid #535353;
 }
+@media (width >= 900px) {
+        header.fr-heade nav
+        {
+             height: var(--nav-height);
+        }        
+}
+
 
 
 /*header non Fr
@@ -50,7 +57,7 @@ header nav[aria-expanded='true'] {
 /*     gap: 0 32px; */
     max-width: 1264px;
     padding: 0 32px;
-      height: var(--nav-height);
+     
   }
 
   header nav[aria-expanded='true'] {
