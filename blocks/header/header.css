@@ -2,7 +2,7 @@
 /*hedaer Fr */
 header.fr-header .nav-wrapper
 {
-  
+    border-bottom: 1px solid #535353;
 }
 
 
@@ -15,7 +15,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
     height: var(--nav-height);
-    border-bottom: 1px solid #535353;
+  
 }
 
 header nav {
