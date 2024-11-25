@@ -1,4 +1,4 @@
-import {fetchPlaceholders, getMetadata } from '../../scripts/aem.js';
+  import {fetchPlaceholders, getMetadata } from '../../scripts/aem.js';
 import { loadFragment } from '../fragment/fragment.js';
 
 var script = document.createElement('script'); 
@@ -182,6 +182,8 @@ export default async function decorate(block) {
   var headerPagePath = '/nav';  
   if (window.location.pathname.startsWith('/fr/')) {    
     headerPagePath = '/fr/nav';  
+    var frheader = document.querySelector("header");
+    frheader.classList.add("fr-header")
   }
   const navPath = navMeta ? new URL(navMeta, window.location).pathname : headerPagePath;
   const fragment = await loadFragment(headerPagePath);
