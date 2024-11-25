@@ -264,3 +264,7 @@ main.fr-main
 {
     margin-top:0 !important;
 }
+main.nonfrMain-main > .section:first-of-type
+{
+    margin-bottom:0 !important;
+}
