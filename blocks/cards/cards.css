@@ -92,3 +92,11 @@
    text-align: right;
     margin-right: 10px;
 } 
+.cards.slider.block ul li .cards-card-body
+{
+    display:none;
+}
+.cards.slider.block ul li
+{
+    border-radius:4px;
+}
