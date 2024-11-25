@@ -68,7 +68,8 @@
 .slider.cards > ul > li {
   border: 1px solid #dadada;
   background-color: var(--background-color);
-  min-width: 280px;
+/*   min-width: 280px; */
+    min-width:512px;
 }
 .cards-wrapper .cards-nav:nth-of-type(2) {
   display: none;
