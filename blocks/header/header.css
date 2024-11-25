@@ -11,7 +11,10 @@ header.fr-header .nav-wrapper
              height: var(--nav-height);
         }        
 }
-
+header.fr-header .nav-hamburger
+{
+    display:none;
+}
 
 
 /*header non Fr
