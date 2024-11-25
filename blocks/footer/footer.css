@@ -1,3 +1,7 @@
+/* fr-footer */
+footer.fr-footer .footer .section.columns-container .default-content-wrapper:nth-of-type(1) {
+   background: #2f2f2f;
+	}
 footer {
 /*   background-color: var(--light-color); */
 /*     background: #002EDC; */
@@ -151,7 +155,7 @@ max-width: 100%;
     background: #2f2f2f;
 }  
   .footer .section.columns-container .default-content-wrapper:nth-of-type(1) {
-   background: #2f2f2f;
+
 	   padding: 40px 32px 24px;
 	}
 	.footer .section.columns-container .default-content-wrapper:nth-of-type(1) p {
