@@ -140,10 +140,10 @@ footer .columns.footercustom > div > div:last-of-type p:first-of-type
 		padding:0;
 		
 	}
-	footer .columns.footercustom > div > div:last-of-type ul li:last-of-type img:nth-of-type(2)
+/* 	footer .columns.footercustom > div > div:last-of-type ul li:last-of-type img:nth-of-type(2)
 	{
 		width:40%;
-	}
+	} */
 footer .columns.footercustom > div > div ul 
 {
     list-style : none;
