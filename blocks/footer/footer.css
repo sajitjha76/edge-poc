@@ -135,6 +135,11 @@ footer .columns.footercustom > div > div:last-of-type p:first-of-type
 {
     display: flex;
 }
+	footer .columns.footercustom > div > div:last-of-type ul 
+	{
+		padding:0;
+		
+	}
 footer .columns.footercustom > div > div ul 
 {
     list-style : none;
