@@ -101,7 +101,7 @@
     border-radius:4px;
 }
 
-.section.cards-container:nth-of-type(1)  div 
+.section.cards-container:not(.faq-container) > div 
 {
     max-width:100%
 }
