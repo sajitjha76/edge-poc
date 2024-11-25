@@ -13,7 +13,7 @@ export default async function decorate(block) {
   if (window.location.pathname.startsWith('/fr/')) {  
     footerPagePath = '/fr/footer';
     var navX = document.querySelector('nav');
-    navx.classList.add("xxxx")
+    navX.classList.add("xxxx")
   }
   const footerPath = footerMeta ? new URL(footerMeta, window.location).pathname : footerPagePath;
   const fragment = await loadFragment(footerPath);
