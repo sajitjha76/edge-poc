@@ -1,9 +1,18 @@
+
+/*hedaer Fr
+header.fr-header .nav-wrapper
+{
+     position: fixed;
+}
+
+
+/*header non Fr
+
 /* header and nav layout */
 header .nav-wrapper {
   background-color: var(--background-color);
   width: 100%;
   z-index: 2;
-  position: fixed;
     height: var(--nav-height);
     border-bottom: 1px solid #535353;
 }
