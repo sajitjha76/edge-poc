@@ -190,7 +190,7 @@ export default async function decorate(block) {
   else 
   {
     var nonfrMain = document.querySelector("main")
-    frMain.classList.add("nonfrMain-main")
+    nonfrMain.classList.add("nonfrMain-main")
   }
   const navPath = navMeta ? new URL(navMeta, window.location).pathname : headerPagePath;
   const fragment = await loadFragment(headerPagePath);
