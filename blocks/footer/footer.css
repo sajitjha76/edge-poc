@@ -11,10 +11,15 @@ footer.fr-footer .footer .section.columns-container .columns-wrapper:nth-of-type
    		 background: #333333;
 	
 	}
+footer.fr-footer{
+	background : none !important; 
+}
+
+
+
 footer {
 /*   background-color: var(--light-color); */
-/*     background: #002EDC; */
-    background : none;        
+    background: #002EDC;       
     font-size:14px;
     line-height:19px;
     font-weight:400;
