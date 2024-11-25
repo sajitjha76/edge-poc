@@ -268,3 +268,7 @@ main.nonfrMain-main > .section:first-of-type
 {
     margin-bottom:0 !important;
 }
+main.nonfrMain-main > .section.carousel-container
+{
+    margin: 0 0 40px 0 !important;
+}
