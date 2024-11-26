@@ -66,6 +66,7 @@ line-height: 22px;
 			height:auto !important;
 		flex-direction: row !important;
 				gap:20px;
+		position:relative;
 	}
 	.section.columns-container .columns-wrapper .telephone > div div:nth-of-type(3)
 	{
