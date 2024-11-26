@@ -42,7 +42,9 @@
 		box-shadow: 0 2px 5px rgba(0, 0, 0, .0747566) !important;
 		border-top-right-radius: 2px !important;
 		border-top-left-radius: 2px !important;
-		 transform: translate(5%, -548px);
+		bottom: 426px;
+        transform: translate(5%, 0);
+        position: absolute;
 	}
 	.section.carousel-container.form-container > .text-wrapper p
 	{
