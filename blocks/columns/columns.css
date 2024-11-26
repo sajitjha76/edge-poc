@@ -34,6 +34,20 @@
   }
 }
 
+@media (width <= 900px) {
+
+.chooseus
+	{
+		overflow-x: auto;
+    scrollbar-width: none;
+    text-align: center;
+	}
+	.chooseus > div 
+	{
+		flex-direction: row;
+	}
+}
+
 .text-container .text-wrapper
 {
 	    padding: 0;
