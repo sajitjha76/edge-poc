@@ -41,7 +41,7 @@
 		overflow-x: auto;
     scrollbar-width: none;
     text-align: center;
-		padding: 30px 0px
+		padding: 30px 0px !important;
 	}
 	.chooseus > div 
 	{
