@@ -38,6 +38,9 @@ footer.fr-footer .footer .section.columns-container .default-content-wrapper:nth
 	{
 		margin: 20px 10px;
 	}
+	.footerbottom > div p {
+		color:#ffffff !important;
+	}
 }
    footer.fr-footer  .footer .section.columns-container .columns-wrapper
 {
