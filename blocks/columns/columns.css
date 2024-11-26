@@ -91,7 +91,7 @@ l.columns > div {
 	}
 	.video 
 	{
-		max-width:90%;
+		max-width:90% !important;
 	}
 }
 .text-container .text-wrapper
