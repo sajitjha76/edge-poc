@@ -5,11 +5,17 @@
 {
 	margin: 0 16px !important; 
 }
+	#faqs {
+   font-size: 20px !important;
+        font-weight: 700 !important;
+        text-align: left !important;
+    margin: 0 0 10px 0 !important;
+}
 .faq-container .faq-wrapper .faq.block > div h3 
 	{
-		font-size: 16px;
-        font-weight: 700;
-        line-height: 24px;
+		font-size: 16px !important;
+        font-weight: 700 !important;
+        line-height: 24px !important;
 	}
 
 
