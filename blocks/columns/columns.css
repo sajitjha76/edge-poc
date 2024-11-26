@@ -47,6 +47,16 @@
 		font-weight: 500;
 		padding:0 30px;
 	}
+	.beautifulhome p.button-container
+	{
+		padding:0 20px !important;
+	}
+	.beautifulhome > div div:nth-of-type(2) a
+	{
+		    width: 100% !important;
+    font-size: 12px !important;
+    line-height: 12px !important;
+	}
 	
 }
 
