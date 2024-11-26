@@ -9,6 +9,8 @@
     	width: 80%;
 		top:19px;
 	 	right: 3%;
+		padding-left: 20px;
+   		 padding-top: 8px;
 	}
 	.section.carousel-container .form-wrapper	
 	{
@@ -41,8 +43,7 @@
 {
 	position:absolute;
 	background: #ffffff;
-	padding-left: 20px;
-    padding-top: 8px;
+	
 }
 .section.carousel-container .form-wrapper
 {
