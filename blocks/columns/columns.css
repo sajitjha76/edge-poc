@@ -26,6 +26,7 @@ l.columns > div {
     align-items: center;
     flex-direction: unset;
     gap: 24px;
+	  display:flex;
   }
 
   .columns > div > div {
@@ -35,7 +36,6 @@ l.columns > div {
 }
 
 @media (width <= 900px) {
-
 .chooseus
 	{
 		overflow-x: auto;
