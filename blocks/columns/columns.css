@@ -18,7 +18,9 @@
 .columns > div > .columns-img-col img {
   display: block;
 }
-
+  .columns > div > div {
+    order: unset;
+  }
 @media (width >= 900px) {
   .columns > div {
     align-items: center;
