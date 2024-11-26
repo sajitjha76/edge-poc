@@ -1,4 +1,4 @@
-.columns > div {
+l.columns > div {
   display: flex;
   flex-direction: column;
 }
@@ -87,7 +87,7 @@
     letter-spacing: .5px;
 		    line-height: 22px;
 	}
-
+}
 .text-container .text-wrapper
 {
 	    padding: 0;
