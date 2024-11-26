@@ -5,16 +5,20 @@ const elements = document.getElementsByClassName('checkbox-wrapper');
 const spanElement = document.createElement('p');
  spanElement.textContent = 'By proceeding, yo are authorizing Asian Paints and its suggested contractors to get in touch with you throug calls, sms, or e-mail';
 spanElement.classList.add('seclabel')
-
+function isMobileDevice() { return /Mobi|Android/i.test(navigator.userAgent); }
 setTimeout(function(){
 elements[0].appendChild(spanElement);
   // elements[0].insertAdjacentElement('beforebegin', spanElement);
-  var bottom =  document.querySelector('.section.carousel-container.form-container  .form-wrapper');
+  if (isMobileDevice())
+  {
+      var bottom =  document.querySelector('.section.carousel-container.form-container  .form-wrapper');
    var movingDiv =  document.querySelector('.section.carousel-container.form-container  .form-wrapper').nextElementSibling;
 let offsetHeight = bottom.offsetHeight + 35;
   offsetHeight = `${offsetHeight}px`;
   console.log(offsetHeight , movingDiv);
   movingDiv.style.bottom = offsetHeight;
+  }
+
 
 }, 1000);
 
