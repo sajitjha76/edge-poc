@@ -12,7 +12,7 @@ elements[0].appendChild(spanElement);
   var bottom =  document.querySelector('.section.carousel-container.form-container  .form-wrapper');
    var movingDiv =  document.querySelector('.section.carousel-container.form-container  .text-wrapper');
 let offsetHeight = bottom.offsetHeight;
-  offsetHeight = `${offsetHeight}px`
+  offsetHeight = `${offsetHeight}px`;
   movingDiv.style.bottom = offsetHeight;
 console.log(offsetHeight);
 }, 1000);
