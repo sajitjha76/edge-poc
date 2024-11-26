@@ -10,7 +10,7 @@ setTimeout(function(){
 elements[0].appendChild(spanElement);
   // elements[0].insertAdjacentElement('beforebegin', spanElement);
   var bottom =  document.querySelector('.section.carousel-container.form-container  .form-wrapper');
-   var movingDiv =  document.querySelector('.section.carousel-container.form-container  .text-wrapper');
+   var movingDiv =  document.querySelector('.section.carousel-container.form-container  .form-wrapper').nextElementSibling;
 let offsetHeight = bottom.offsetHeight;
   offsetHeight = `'${offsetHeight}px'`;
   console.log(offsetHeight , movingDiv);
