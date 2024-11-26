@@ -1,3 +1,10 @@
+/*mobile */
+.faq-container .faq-wrapper
+{
+	margin: 0 16px !important; 
+}
+
+
 #faqs
 {
         font-size: 32px;
