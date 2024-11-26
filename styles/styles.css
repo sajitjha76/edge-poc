@@ -274,7 +274,10 @@ main.nonfrMain-main > .section.carousel-container
 }
 
 /* fr-main */
-main.fr-main > .section.text-container
+@media(widht <= 900) {
+      main.fr-main > .section.text-container
 {
     margin: 10px 0 10px 0 !important;
+}  
 }
+
