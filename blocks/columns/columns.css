@@ -65,7 +65,7 @@ line-height: 22px;
 }
 .section.columns-container .columns-wrapper .telephone > div
 {
-	gap:32px
+	gap:32px;
 background: #fefefe;
     border: 1px solid #eee;
     box-sizing: border-box;
