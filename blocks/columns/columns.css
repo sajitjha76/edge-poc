@@ -66,6 +66,10 @@ line-height: 22px;
 			height:auto !important;
 		flex-direction: row !important;
 	}
+	.section.columns-container .columns-wrapper .telephone > div div.columns-img-col:nth-of-type(2)
+	{
+		position:absolute;
+	}
 
 }
 .section.columns-container .columns-wrapper .telephone > div
