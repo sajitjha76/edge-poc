@@ -17,6 +17,9 @@
         font-weight: 700 !important;
         line-height: 24px !important;
 	}
+	.clickArrow:before {
+    right: 28px !important;
+}
 
 
 
