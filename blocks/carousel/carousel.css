@@ -40,8 +40,9 @@
 		max-width: 90%;
     	width: 100%;
 		box-shadow: 0 2px 5px rgba(0, 0, 0, .0747566) !important;
-		border-radius: 2px !important;
-		transform : translate(5% , -40px)
+		border-top-right-radius: 2px !important;
+		border-top-left-radius: 2px !important;
+		 transform: translate(5%, -548px);
 	}
 	.section.carousel-container.form-container > .text-wrapper p
 	{
