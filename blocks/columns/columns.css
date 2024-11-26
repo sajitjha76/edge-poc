@@ -89,6 +89,10 @@ l.columns > div {
     letter-spacing: .5px;
 		    line-height: 22px;
 	}
+	.video 
+	{
+		max-width:90%;
+	}
 }
 .text-container .text-wrapper
 {
