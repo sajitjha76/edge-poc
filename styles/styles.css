@@ -272,3 +272,9 @@ main.nonfrMain-main > .section.carousel-container
 {
     margin: 0 0 40px 0 !important;
 }
+
+/* fr-main */
+main.fr-main > .section.text-container
+{
+    margin: 10px 0 10px 0 !important;
+}
