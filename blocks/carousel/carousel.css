@@ -21,6 +21,11 @@
    			 right: 3%;
 		 position: absolute;
 	}
+	.carousel-wrapper .carousel.block nav
+		{
+			left:50%;
+			bottom: 0;
+		}
 }
 @media (width <= 900px) {
 	.carousel.desktop.block
@@ -38,6 +43,12 @@
 		max-width: 100%;
     	width: 100%;
 	}
+	.carousel-wrapper .carousel.block nav
+		{
+			left:50%;
+			transform: translateX(-50%);
+			bottom:50%;
+		}
 }
 
 /* Absolute Text Container */
@@ -61,6 +72,12 @@
 /*     height: 85%; */
     margin: 0;
 } 
+.carousel-wrapper .carousel.block nav
+{
+	position: absolute;
+    	
+	
+}
 
 
 .carousel .carousel-slides-container {
@@ -252,12 +269,7 @@
 {
 	display:none;
 }
-.carousel-wrapper .carousel.block nav
-{
-	position: absolute;
-    	bottom: 0;
-	left:50%;
-}
+
 .carousel-wrapper .carousel.block nav ol 
 {
 	background: transparent;
