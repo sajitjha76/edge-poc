@@ -28,6 +28,11 @@
 		}
 }
 @media (width <= 900px) {
+
+	main.fr-main > .section:first-of-type
+	{
+		margin-bottom:0 !important;
+	}
 	.carousel.desktop.block
 	{
 			display:none;
