@@ -70,6 +70,11 @@ line-height: 22px;
 	{
 		position:absolute;
 	}
+	.section.columns-container .columns-wrapper .telephone > div div p
+	{
+		font-size:14px;
+		line-height:22px;
+	}
 
 }
 .section.columns-container .columns-wrapper .telephone > div
