@@ -76,11 +76,16 @@
 	}
 	.section.columns-container.video-container .columns-wrapper .columns > div > div p:nth-of-type(2)
 	{
-	
+		font-size: 12px;
+        letter-spacing: .6px;
+        line-height: 1.08;
 	}
 	.section.columns-container.video-container .columns-wrapper .columns > div > div p:nth-of-type(3)
 	{
-	
+		font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .5px;
+		    line-height: 22px;
 	}
 
 .text-container .text-wrapper
