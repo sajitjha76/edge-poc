@@ -59,6 +59,10 @@ line-height: 22px;
     padding: 0;
     margin: 0;
 }
+@media(widht <= 900)
+{
+	height:auto;
+}
 .section.columns-container .columns-wrapper .telephone > div
 {
 	gap:32px
