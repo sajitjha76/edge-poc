@@ -2,7 +2,7 @@
 footer.fr-footer .footer .section.columns-container .default-content-wrapper:nth-of-type(1) {
    background: #2f2f2f;
 	}
-@medai(width <= 900px)
+@media(width <= 900px)
 {
 	footer.fr-footer .footer .section.columns-container .default-content-wrapper:nth-of-type(1) {
    		padding: 18px 20px !important;
