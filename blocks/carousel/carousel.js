@@ -11,6 +11,10 @@ elements[0].appendChild(spanElement);
   // elements[0].insertAdjacentElement('beforebegin', spanElement);
 }, 1000)
 
+var bottom :  document.getElementsByClassName('.section.carousel-container.form-container  .text-wrapper')
+const offsetHeight = bottom.offsetHeight;
+console.log(offsetHeight)
+
 
 
 
