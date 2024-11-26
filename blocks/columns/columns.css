@@ -66,6 +66,7 @@ l.columns > div {
     flex-wrap: wrap;
     justify-content: space-between;
 		display:flex;
+		gap:24px;
 	}
 	.section.columns-container.video-container .columns-wrapper .columns > div > div
 	{
