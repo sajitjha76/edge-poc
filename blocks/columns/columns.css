@@ -1,6 +1,7 @@
-/*How it Works Mobile */
+
 @media (width <= 900px) 
 {
+/*How it Works Mobile */
 	#how-it-works
 	{
 		font-size: 20px !important;
@@ -29,7 +30,15 @@
         line-height: 16.8px !important;
   
 	}
-
+/* Beutiful Homes Section */
+	#asian-paints-beautiful-homes-painting
+	{
+		font-weight: 700 !important;
+    	font-size: 22px !important;
+    	line-height: 24px !important;
+    	letter-spacing: normal !important;
+		padding: 0 20px;
+	}
 	
 }
 
