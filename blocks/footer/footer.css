@@ -19,12 +19,16 @@ footer.fr-footer .footer .section.columns-container .default-content-wrapper:nth
         column-gap: 22px;
         row-gap: 10px;
 	}
-	footer.fr-footer .footer .section.columns-container .columns-wrapper .footerasianpaint > div >div 
+	footer.fr-footer .footer .section.columns-container .columns-wrapper .footerasianpaint > div > div 
 	{
 		padding: 0;
         width: 87px;
         height: auto;
         border-bottom: 0;
+	}
+	footer.fr-footer .footer .section.columns-container .columns-wrapper .footerasianpaint > div > div img 
+	{
+		height:auto !important;
 	}
 }
    footer.fr-footer  .footer .section.columns-container .columns-wrapper
