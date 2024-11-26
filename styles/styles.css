@@ -274,7 +274,7 @@ main.nonfrMain-main > .section.carousel-container
 }
 
 /* fr-main */
-@media (width <= 900) {
+@media (width <= 900px) {
       main.fr-main > .section.text-container
 {
     margin: 10px 0 10px 0 !important;
