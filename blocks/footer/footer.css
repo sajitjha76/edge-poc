@@ -7,7 +7,7 @@ footer.fr-footer .footer .section.columns-container .default-content-wrapper:nth
 	footer.fr-footer .footer .section.columns-container .default-content-wrapper:nth-of-type(1) {
    		padding: 18px 20px !important;
 	}
-	footer.fr-footer .footer .section.columns-container .columns-wrapper 
+	footer.fr-footer .footer .section.columns-container div.columns-wrapper 
 	{
 		padding : 18px 20px !important;
 	}
