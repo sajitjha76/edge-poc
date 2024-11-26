@@ -1,8 +1,24 @@
 /*mobile */
-.faq-container .faq-wrapper
+@media (width <= 900px)
+{
+	.faq-container .faq-wrapper
 {
 	margin: 0 16px !important; 
 }
+.faq-container .faq-wrapper .faq.block > div h3 
+	{
+		font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+	}
+
+
+
+
+
+
+}
+
 
 
 #faqs
