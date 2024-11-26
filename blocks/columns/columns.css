@@ -65,11 +65,15 @@ line-height: 22px;
 	{
 			height:auto !important;
 		flex-direction: row !important;
-				gap:20;
+				gap:20px;
 	}
 	.section.columns-container .columns-wrapper .telephone > div div:nth-of-type(3)
 	{
 		position:absolute;
+		left: 50%;
+    bottom: -2%;
+
+		
 
 	}
 	.section.columns-container .columns-wrapper .telephone > div div p
