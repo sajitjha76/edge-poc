@@ -9,7 +9,7 @@ spanElement.classList.add('seclabel')
 setTimeout(function(){
 elements[0].appendChild(spanElement);
   // elements[0].insertAdjacentElement('beforebegin', spanElement);
-  var bottom =  document.querySelector('.section.carousel-container.form-container  .text-wrapper');
+  var bottom =  document.querySelector('.section.carousel-container.form-container  .form-wrapper');
 const offsetHeight = bottom.offsetHeight;
 console.log(offsetHeight);
 }, 1000);
