@@ -20,6 +20,19 @@
 	.clickArrow:before {
     right: 28px !important;
 }
+	.faq-container
+	{
+		margin-bottom: 0 !important;
+	}
+	.faq-container >div.default-content-wrapper:last-of-type 
+	{
+		padding: 0 !important;
+	}
+	.faq-container p.button-container a 
+	{
+		width:100% !important;
+		display:block;
+	}
 
 
 
