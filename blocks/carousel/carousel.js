@@ -14,7 +14,7 @@ elements[0].appendChild(spanElement);
 let offsetHeight = bottom.offsetHeight;
   offsetHeight = `'${offsetHeight}px'`;
   console.log(offsetHeight);
-  movingDiv.style.bottom = offsetHeight;
+  movingDiv.style.bottom === offsetHeight;
 
 }, 1000);
 
