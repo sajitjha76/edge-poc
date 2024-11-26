@@ -34,6 +34,10 @@ footer.fr-footer .footer .section.columns-container .default-content-wrapper:nth
 	{
 		display:flex;
 	}
+	.footerbottom .columns-img-col p picture
+	{
+		margin: 20px 10px;
+	}
 }
    footer.fr-footer  .footer .section.columns-container .columns-wrapper
 {
