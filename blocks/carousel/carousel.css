@@ -24,7 +24,7 @@
 	.carousel-wrapper .carousel.block nav
 		{
 			left:50%;
-			bottom: 25%;
+			bottom: 0%;
 		}
 }
 @media (width <= 900px) {
@@ -60,7 +60,7 @@
 		{
 			left:50%;
 			transform: translateX(-50%);
-			bottom:50%;
+			bottom:25%;
 		}
 }
 
