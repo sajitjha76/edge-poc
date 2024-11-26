@@ -40,8 +40,11 @@
 	}
 	.section.carousel-container .form-wrapper	
 	{
-		max-width: 100%;
+		max-width: 90%;
     	width: 100%;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, .0747566);
+		border-radius: 2px;
+		transform : translate(20px , 5%)
 	}
 	.carousel-wrapper .carousel.block nav
 		{
