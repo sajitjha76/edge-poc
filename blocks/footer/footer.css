@@ -30,6 +30,10 @@ footer.fr-footer .footer .section.columns-container .default-content-wrapper:nth
 	{
 		height:auto !important;
 	}
+	.footerbottom .columns-img-col p
+	{
+		display:flex;
+	}
 }
    footer.fr-footer  .footer .section.columns-container .columns-wrapper
 {
