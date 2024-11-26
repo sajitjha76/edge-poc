@@ -69,6 +69,7 @@ line-height: 22px;
 	.section.columns-container .columns-wrapper .telephone > div div:nth-of-type(3)
 	{
 		position:absolute;
+		gap:20;
 	}
 	.section.columns-container .columns-wrapper .telephone > div div p
 	{
