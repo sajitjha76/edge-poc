@@ -32,9 +32,10 @@ export default async function decorate(block) {
 //Mobile Footer
   document.addEventListener('DOMContentLoaded', function() {
     const firstParagraph = document.querySelectorAll('footer.non-fr-footer .columns.footercustom > div > div p:nth-of-type(1)');
+      console.log(firstParagraph)
   })
 
-  console.log(firstParagraph)
+
   // firstParagraph.addEventListener('click', function() { 
   //  var  allParagraphs = document.querySelectorAll('footer.non-fr-footer .columns.footercustom > div > div p:not(:nth-of-type(1))'); 
   //     // Loop through all <p> elements and set display to block 
