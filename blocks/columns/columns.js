@@ -15,4 +15,8 @@ export default function decorate(block) {
       }
     });
   });
+  setTimeout(function(){
+    var topdivall = document.querySelectorAll('.bestsuits > div .columns-img-col')
+    console.log(topdivall);
+  })
 }
