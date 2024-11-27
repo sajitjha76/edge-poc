@@ -3,25 +3,25 @@
 {
 /* Non-fr-main */
 
-.bestsuits  div:nth-of-type(1) div:nth-of-type(2)
+.bestsuits  div:nth-of-type(1) div:nth-of-type(2n)
 {
 	box-shadow: 1px 6px 25px -4px #10182829;
     padding: 20px 0 30px 30px;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
 }
-.bestsuits  div:nth-of-type(1) div:nth-of-type(2) p{
+.bestsuits  div:nth-of-type(1) div:nth-of-type(2n) p{
 	margin:0;
     font-weight: 700;
     font-size: 12px;
     line-height: 14.4px;
     color: #75787b;
 }
-.bestsuits  div:nth-of-type(1) div:nth-of-type(2) ul
+.bestsuits  div:nth-of-type(1) div:nth-of-type(2n) ul
 {
 	padding:0;
 }
-.bestsuits  div:nth-of-type(1) div:nth-of-type(2) ul li 
+.bestsuits  div:nth-of-type(1) div:nth-of-type(2n) ul li 
 {
 	font-size: 14px;
     font-weight: 400;
@@ -30,7 +30,7 @@
     align-items: center;
     column-gap: 11px;
 }
-.bestsuits  div:nth-of-type(1) div:nth-of-type(2) ul li:before 
+.bestsuits  div:nth-of-type(1) div:nth-of-type(2n) ul li:before 
 {
 content: "";
     background-image: url(https://www.asianpaints.com/etc.clientlibs/apcolourcatalogue/components/content/choosePlan/clientlibs/resources/images/black-tick.svg);
