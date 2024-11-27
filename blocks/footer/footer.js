@@ -30,7 +30,7 @@ export default async function decorate(block) {
 
 
 //Mobile Footer
-  if(window.width <= 900)
+  if(window.innerWidth <= 900)
   {
      setTimeout(function(){
     const firstParagraph = document.querySelectorAll('footer.non-fr-footer .columns.footercustom > div > div p:nth-of-type(1)');
