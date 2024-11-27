@@ -19,6 +19,16 @@ main.nonfrMain-main .section.columns-container:last-of-type .columns > div
 		text-align:center;
 		padding:0 10%;
 	}
+	main.nonfrMain-main .section.columns-container:last-of-type .columns > div div:first-of-type p.button-container
+	{
+		        width: calc(100% - 40px);
+		margin:auto;
+	}
+	main.nonfrMain-main .section.columns-container:last-of-type .columns > div div:first-of-type p.button-container a
+	{
+		width:100%;
+		background-color: #d4212a !important;
+	}
 
 	
 /*How it Works Mobile */
