@@ -31,6 +31,12 @@ main.nonfrMain-main .section.columns-container:last-of-type .columns > div
 		font-size:16px;
 	}
 
+main.nonfrMain-main	.tabs .tabs-panel 
+	{
+		display:block;
+		padding:0 !important;
+	}
+
 	
 /*How it Works Mobile */
 	#how-it-works
