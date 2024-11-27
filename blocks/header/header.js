@@ -274,7 +274,7 @@ if(window.innerWidth <= 900)
   const image = document.createElement('img'); 
   image.src = 'https://main--edge-poc--sajitjha76.aem.live/media_1a1e306bd86841ec3cc36317d636f1b6c7892c9c7.png?width=750&format=png&optimize=medium'; 
   image.alt = 'Placeholder Image'; 
-  image.classList = 'mobilelogo'
+  anchor.classList = 'mobilelogo'
   anchor.appendChild(image)
   document.querySelector('.nav-hamburger button').insertAdjacentElement('afterend', anchor);
   setTimeout(function(){
