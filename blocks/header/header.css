@@ -20,6 +20,10 @@ header.fr-header .nav-hamburger
 /*header non Fr */
 @media( width <=900px)
 {
+   #nav['aria-expanded' = 'false']
+    {
+        background:white;
+    }
     .mobilelogo
     {
         transform: translateX(24%);
