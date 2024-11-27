@@ -267,17 +267,13 @@ export default async function decorate(block) {
   }
 if(window.innerWidth <= 900)
 {
-  // var logomobile = document.querySelector('header.nonfr-header  nav a:any-link:first-of-type')
+
   const anchor = document.createElement('a'); 
   anchor.href = 'www.yesbank.in'; 
-  // Set the href attribute 
   anchor.target = '_blank'; 
-  // Optional: Open link in a new tab 
-  // Create the image element 
   const image = document.createElement('img'); 
   image.src = 'https://main--edge-poc--sajitjha76.aem.live/media_1a1e306bd86841ec3cc36317d636f1b6c7892c9c7.png?width=750&format=png&optimize=medium'; 
-  // Set the source of the image 
-  image.alt = 'Placeholder Image'; // Set the alt attribute // Append the image inside the anchor element 
+  image.alt = 'Placeholder Image'; 
   anchor.appendChild(image)
   document.querySelector('.nav-hamburger button').insertAdjacentElement('afterend', anchor);
   setTimeout(function(){
