@@ -2,7 +2,7 @@
 @media (width <= 900px) 
 {
 /* Non-fr-main */
-mai.nonfrMain-main .section.columns-container:last-of-type .columns > div 
+main.nonfrMain-main .section.columns-container:last-of-type .columns > div 
 	{
 		display:flex;
 		flex-direction: column;
