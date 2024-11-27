@@ -15,6 +15,11 @@ export default async function decorate(block) {
     var footerN = document.querySelector('footer');
     footerN.classList.add("fr-footer")
   }
+  else 
+  {
+    var footerN = document.querySelector('footer');
+    footerN.classList.add("non-fr-footer")
+  }
   const footerPath = footerMeta ? new URL(footerMeta, window.location).pathname : footerPagePath;
   const fragment = await loadFragment(footerPath);
 
