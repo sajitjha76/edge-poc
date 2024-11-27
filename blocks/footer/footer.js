@@ -30,10 +30,12 @@ export default async function decorate(block) {
 
 
 //Mobile Footer
-  document.addEventListener('DOMContentLoaded', function() {
+ setTimeout(function(){
     const firstParagraph = document.querySelectorAll('footer.non-fr-footer .columns.footercustom > div > div p:nth-of-type(1)');
       console.log(firstParagraph)
-  })
+ }, 100) 
+   
+
 
 
   // firstParagraph.addEventListener('click', function() { 
