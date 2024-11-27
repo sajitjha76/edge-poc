@@ -268,14 +268,14 @@ export default async function decorate(block) {
 if(window.innerWidth <= 900)
 {
 
-  // const anchor = document.createElement('a'); 
-  // anchor.href = 'www.yesbank.in'; 
-  // anchor.target = '_blank'; 
-  // const image = document.createElement('img'); 
-  // image.src = 'https://main--edge-poc--sajitjha76.aem.live/media_1a1e306bd86841ec3cc36317d636f1b6c7892c9c7.png?width=750&format=png&optimize=medium'; 
-  // image.alt = 'Placeholder Image'; 
-  // anchor.appendChild(image)
-  // document.querySelector('.nav-hamburger button').insertAdjacentElement('afterend', anchor);
+  const anchor = document.createElement('a'); 
+  anchor.href = 'www.yesbank.in'; 
+  anchor.target = '_blank'; 
+  const image = document.createElement('img'); 
+  image.src = 'https://main--edge-poc--sajitjha76.aem.live/media_1a1e306bd86841ec3cc36317d636f1b6c7892c9c7.png?width=750&format=png&optimize=medium'; 
+  image.alt = 'Placeholder Image'; 
+  anchor.appendChild(image)
+  document.querySelector('.nav-hamburger button').insertAdjacentElement('afterend', anchor);
   setTimeout(function(){
     var mainnavAnchor = document.querySelectorAll('header.nonfr-header nav a:any-link')
     mainnavAnchor.forEach(function(anchor){
