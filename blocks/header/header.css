@@ -24,10 +24,10 @@ header.fr-header .nav-hamburger
     {
         display:none;
     }
-    header nav .nav-sections ul
+    header.nonfr-header nav .nav-sections ul
     {
         display:none;
-        padding-left : 20px;
+        padding-left: 20px !important;
     }
         header.nonfr-header nav .nav-sections ul > li 
     {
