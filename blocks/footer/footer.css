@@ -1,3 +1,14 @@
+/*non-fr-footer */
+@media (width <=900px)
+{
+	footer.non-fr-footer .default-content-wrapper:nth-of-type(1)
+	{
+		padding-bottom: 20px !important;
+	}
+}
+
+
+
 /* fr-footer */
 footer.fr-footer .footer .section.columns-container .default-content-wrapper:nth-of-type(1) {
    background: #2f2f2f;
