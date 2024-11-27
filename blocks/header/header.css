@@ -20,6 +20,16 @@ header.fr-header .nav-hamburger
 /*header non Fr */
 @media( width <=900px)
 {
+    .mobilelogo
+    {
+        transform: translateX(24%);
+    width: 175px;
+    padding: 0;
+    }
+    .mobilelogo img 
+    {
+        width:100%;
+    }
     main.nonfrMain-main
     {
         margin-top: 0 !important;
