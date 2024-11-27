@@ -35,7 +35,7 @@ export default async function decorate(block) {
    firstParagraph.forEach(function(para) {
      para.addEventListener('click', function() {
        console.log("click");
-     }
+     })
    })
  }, 100) 
    
