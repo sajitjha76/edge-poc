@@ -18,7 +18,15 @@
         right: 0;
         top: 50%;
         transform: translateY(-50%);
-        font-family: 'icomoon';
+        font-family: monospace;
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #ffff;
+        margin-right: 8px;
 	}
 	footer.non-fr-footer .columns.footercustom > div > div p:not(:nth-of-type(1)) 
 	{
