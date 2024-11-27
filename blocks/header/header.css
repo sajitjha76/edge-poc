@@ -36,6 +36,20 @@ header.fr-header .nav-hamburger
     {
         display:none;
     }
+    header.nonfr-header .nav-wrapper .section nav-sections
+    {
+        height: 100%;
+    border-radius: 20px;
+    padding: 29px 32px;
+    background: rgb(255 255 255 / 99%);
+    border: 0.668216px solid #B3E0FF;
+    /* backdrop-filter: blur(9px); */
+    overflow: auto;
+    display: block;
+    z-index: 10;
+    transition: all 0.2s;
+    position: relative;
+    }
 }
 
 
