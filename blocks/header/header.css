@@ -20,6 +20,16 @@ header.fr-header .nav-hamburger
 /*header non Fr */
 @media( width <=900px)
 {
+    main.nonfrMain-main > .section:first-of-type p
+    {
+            color: #6a717c;
+            font-size: 14px;
+    }
+    main.nonfrMain-main > .section:first-of-type p a
+    {
+            color: #6a717c;
+            font-size: 14px;
+    }
     header.nonfr-header nav .nav-sections ul > li > ul
     {
         display:none;
