@@ -10,6 +10,10 @@
 	{
 		display:none;
 	}
+	footer.non-fr-footer .columns.footercustom > div > div p
+	{
+		margin-bottom:0 !important;
+	}
 	footer.non-fr-footer .columns.footercustom
 	{
 		padding: 0px 15px;
