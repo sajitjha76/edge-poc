@@ -13,7 +13,11 @@
 	footer.non-fr-footer .columns.footercustom
 	{
 		padding: 0px 15px;
-		border-top : solid 1px rgba(255, 255, 255, 0.2);
+	
+	}
+	footer.non-fr-footer .columns.footercustom > div > div
+	{
+			border-top : solid 1px rgba(255, 255, 255, 0.2);
 		border-bottom: solid 1px rgba(255, 255, 255, 0.2);
 	}
 }
