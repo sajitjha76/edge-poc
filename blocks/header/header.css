@@ -57,6 +57,11 @@ header.fr-header .nav-hamburger
         display:none;
         border-top: unset !important;
     }
+     header.nonfr-header  nav a:any-link:nth-of-type(2)
+    {
+   
+        border-top: unset !important;
+    }
     header.nonfr-header  nav strong
     {
         display:none;
