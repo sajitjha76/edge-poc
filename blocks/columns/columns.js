@@ -19,8 +19,8 @@ export default function decorate(block) {
     var topdivall = document.querySelectorAll('.bestsuits > div .columns-img-col')
      var bottomDiv = document.querySelectorAll('.bestsuits div:nth-of-type(2) div')
      topdivall.forEach(function(topdiv , index){
-      topdiv.insertAdjacentElement('afterend', bottomDiv[index]);
-       console.log(topdiv , index)
+      // topdiv.insertAdjacentElement('afterend', bottomDiv[index]);
+       console.log(topdiv , bottomDiv[index])
      })
   })
 }
