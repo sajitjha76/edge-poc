@@ -38,8 +38,9 @@ main.nonfrMain-main	.tabs .tabs-list
 	main.nonfrMain-main .tabs .tabs-list button
 	{
 		min-width:max-content;
-		font-size:14px;
+		font-size:18px;
 		line-height:18px;
+		padding-bottom: 20px;
 	}
 main.nonfrMain-main	.tabs .tabs-panel 
 	{
