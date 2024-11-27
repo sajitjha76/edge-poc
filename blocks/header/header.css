@@ -20,6 +20,10 @@ header.fr-header .nav-hamburger
 /*header non Fr */
 @media( width <=900px)
 {
+    main.nonfrMain-main
+    {
+        margin-top: 0 !important;
+    }
     main.nonfrMain-main > .section:first-of-type p
     {
             color: #6a717c;
