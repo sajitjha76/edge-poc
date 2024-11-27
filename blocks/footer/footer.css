@@ -48,6 +48,10 @@
 			border-top : solid 1px rgba(255, 255, 255, 0.2);
 		border-bottom: solid 1px rgba(255, 255, 255, 0.2);
 	}
+	footer.non-fr-footer  .columns.footercustom > div > div:last-of-type p:first-of-type
+	{
+		gap:20px;
+	}
 }
 
 
