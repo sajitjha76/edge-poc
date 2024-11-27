@@ -11,6 +11,13 @@ main.nonfrMain-main .section.columns-container:last-of-type .columns > div
 	{
 		order: 1;
 	}
+	main.nonfrMain-main .section.columns-container:last-of-type .columns > div div:first-of-type p:first-of-tyoe 
+	{
+		font-size: 16px;
+		font-weight:400;
+		color:#424349;
+		text-align:center;
+	}
 
 	
 /*How it Works Mobile */
