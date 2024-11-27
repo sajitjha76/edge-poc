@@ -31,12 +31,13 @@ export default async function decorate(block) {
 
 //Mobile Footer
 const firstParagraph = document.querySelector('footer.non-fr-footer .columns.footercustom > div > div p:nth-of-type(1)');
-  firstParagraph.addEventListener('click', function() { 
-   var  allParagraphs = document.querySelectorAll('footer.non-fr-footer .columns.footercustom > div > div p:not(:nth-of-type(1))'); 
-      // Loop through all <p> elements and set display to block 
-    allParagraphs.forEach(function(paragraph) { 
-      paragraph.style.display = 'block'; 
-    }); 
-  });
+  console.log(firstParagraph)
+  // firstParagraph.addEventListener('click', function() { 
+  //  var  allParagraphs = document.querySelectorAll('footer.non-fr-footer .columns.footercustom > div > div p:not(:nth-of-type(1))'); 
+  //     // Loop through all <p> elements and set display to block 
+  //   allParagraphs.forEach(function(paragraph) { 
+  //     paragraph.style.display = 'block'; 
+  //   }); 
+  // });
   block.append(footer);
 }
