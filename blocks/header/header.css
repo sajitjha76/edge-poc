@@ -82,7 +82,7 @@ header.fr-header .nav-hamburger
         content: url(https://www.yesbank.in/_cache_33a3/_themesdelivery/Yes-Bank-MigrationTheme/assets/html/footer/images/plus-icon.svg);
         color: #2B61AB;
     }
-     header.nonfr-header  nav a:any-link:first-of-type
+     header.nonfr-header  nav .nav-sections a:any-link:first-of-type
     {
         display:none;
         border-top: unset !important;
