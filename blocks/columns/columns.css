@@ -7,6 +7,10 @@ main.nonfrMain-main .section.columns-container:last-of-type .columns > div
 		display:flex;
 		flex-direction: column;
 	}
+	main.nonfrMain-main .section.columns-container:last-of-type .columns > div div:first-of-type
+	{
+		order: 1;
+	}
 
 	
 /*How it Works Mobile */
