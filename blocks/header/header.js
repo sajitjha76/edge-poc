@@ -289,10 +289,12 @@ if(window.innerWidth <= 900)
           {
             document.querySelector('header nav .nav-sections ul').style.display = "block"
             anchor.insertAdjacentElement('afterend', document.querySelector('header nav .nav-sections ul'));
+            anchor.classList.add("minus")
           }
           else 
           {
             document.querySelector('header nav .nav-sections ul').style.display = "none"
+            anchor.classList.remove("minus")
           }
     })
     })
