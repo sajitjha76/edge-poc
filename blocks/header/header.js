@@ -265,4 +265,21 @@ export default async function decorate(block) {
    if (getMetadata('breadcrumbs').toLowerCase() === 'true') {
     navWrapper.append(await buildBreadcrumbs());
   }
+
+  setTimeout(function(){
+    var mainnavAnchor document.querySelectorAll('header.nonfr-header nav a:any-link')
+    mainnavAnchor.forEach(function(anchor){
+      anchor.removeAttribute('href'); // Add javascript:void(0) to the onclick attribute 
+      anchor.setAttribute('href', 'javascript:void(0);');
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          console.log("click")
+          document.querySelector('header nav .nav-sections ul').style.display = "block"
+    }
+    })
+  )
+})
+
+
+  
 }
