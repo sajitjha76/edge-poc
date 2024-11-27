@@ -15,7 +15,7 @@ export default function decorate(block) {
       }
     });
   });
-  if(window.innerwidth <= 900)
+  if(window.innerWidth <= 900)
   {
       setTimeout(function(){
     var topdivall = document.querySelectorAll('.bestsuits > div .columns-img-col')
