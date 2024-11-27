@@ -277,6 +277,7 @@ export default async function decorate(block) {
           if (document.querySelector('header nav .nav-sections ul').style.display === 'none' || document.querySelector('header nav .nav-sections ul').style.display === '' )
           {
             document.querySelector('header nav .nav-sections ul').style.display = "block"
+            anchor.insertAdjacentElement('afterend', document.querySelector('header nav .nav-sections ul'));
           }
           else 
           {
