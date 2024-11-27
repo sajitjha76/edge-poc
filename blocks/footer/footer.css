@@ -6,7 +6,7 @@
 	{
 		padding-bottom: 20px !important;
 	}
-	footer.non-fr-footer .columns.footercustom > div > div p:(:nth-of-type(1)):before
+	footer.non-fr-footer .columns.footercustom > div > div p:nth-of-type(1):before
 	{
 		position: absolute;
         color: #ffffff;
