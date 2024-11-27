@@ -6,6 +6,13 @@ main.nonfrMain-main	.carousel .carousel-slide .carousel-slide-content
 	{
 		position: unset;
 		transform: unset;
+		padding: 30px;
+	}
+	main.nonfrMain-main	.carousel .carousel-slide .carousel-slide-content p
+	{
+		font-size: 0.875rem;
+		letter-spacing: 0.2px;
+		line-height: 1.125rem;	
 	}
 main.nonfrMain-main .section.columns-container:last-of-type .columns > div 
 	{
