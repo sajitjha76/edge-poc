@@ -52,6 +52,14 @@
 	{
 		gap:20px;
 	}
+	footer.non-fr-footer  .columns.footercustom > div > div:last-of-type ul li:last-of-type
+	{
+		width:50%
+	}
+	footer.non-fr-footer  .columns.footercustom > div > div:last-of-type ul li:last-of-type picture
+	{
+		margin:10px 0px;
+	}
 }
 
 
