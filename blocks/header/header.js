@@ -275,9 +275,9 @@ export default async function decorate(block) {
           e.preventDefault();
           console.log("click")
           document.querySelector('header nav .nav-sections ul').style.display = "block"
-    }
     })
-  )
+    })
+  
 })
 
 
