@@ -1,6 +1,14 @@
 
 @media (width <= 900px) 
 {
+/* Non-fr-main */
+mai.nonfrMain-main .section.columns-container:last-of-type .columns > div 
+	{
+		display:flex;
+		flex-direction: column;
+	}
+
+	
 /*How it Works Mobile */
 	#how-it-works
 	{
