@@ -267,7 +267,7 @@ export default async function decorate(block) {
   }
 
   setTimeout(function(){
-    var mainnavAnchor document.querySelectorAll('header.nonfr-header nav a:any-link')
+    var mainnavAnchor = document.querySelectorAll('header.nonfr-header nav a:any-link')
     mainnavAnchor.forEach(function(anchor){
       anchor.removeAttribute('href'); // Add javascript:void(0) to the onclick attribute 
       anchor.setAttribute('href', 'javascript:void(0);');
