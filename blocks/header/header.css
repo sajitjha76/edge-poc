@@ -34,7 +34,7 @@ header.fr-header .nav-hamburger
     }
     header.nonfr-header header nav strong
     {
-        display:block;
+        display:none;
     }
 }
 
