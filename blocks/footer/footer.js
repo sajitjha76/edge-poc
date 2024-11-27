@@ -30,7 +30,9 @@ export default async function decorate(block) {
 
 
 //Mobile Footer
- setTimeout(function(){
+  if(window.width <= 900)
+  {
+     setTimeout(function(){
     const firstParagraph = document.querySelectorAll('footer.non-fr-footer .columns.footercustom > div > div p:nth-of-type(1)');
    firstParagraph.forEach(function(para) {
      para.addEventListener('click', function() {
@@ -45,16 +47,7 @@ export default async function decorate(block) {
      })
    })
  }, 100) 
-   
+  }
 
-
-
-  // firstParagraph.addEventListener('click', function() { 
-  //  var  allParagraphs = document.querySelectorAll('footer.non-fr-footer .columns.footercustom > div > div p:not(:nth-of-type(1))'); 
-  //     // Loop through all <p> elements and set display to block 
-  //   allParagraphs.forEach(function(paragraph) { 
-  //     paragraph.style.display = 'block'; 
-  //   }); 
-  // });
   block.append(footer);
 }
