@@ -35,6 +35,12 @@ main.nonfrMain-main	.tabs .tabs-list
 		flex-wrap: unset;
 		scrollbar-width: none;
 	}
+	main.nonfrMain-main .tabs .tabs-list button
+	{
+		min-width:max-content;
+		font-size:14px;
+		line-height:18px;
+	}
 main.nonfrMain-main	.tabs .tabs-panel 
 	{
 		    grid-template-columns: 1fr;
