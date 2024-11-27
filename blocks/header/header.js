@@ -267,6 +267,8 @@ export default async function decorate(block) {
   }
 if(window.innerWidth <= 900)
 {
+  var logomobile document.querySelector('header.nonfr-header  nav a:any-link:first-of-type')
+  document.querySelector('.nav-hamburger button').insertAdjacentElement('afterend', logomobile);
   setTimeout(function(){
     var mainnavAnchor = document.querySelectorAll('header.nonfr-header nav a:any-link')
     mainnavAnchor.forEach(function(anchor){
