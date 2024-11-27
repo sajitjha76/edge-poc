@@ -60,6 +60,10 @@
 	{
 		margin:10px 0px;
 	}
+	footer.non-fr-footer .default-content-wrapper:nth-of-type(2)
+	{
+		padding: 15px !important;
+	}
 }
 
 
