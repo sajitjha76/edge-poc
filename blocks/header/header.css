@@ -84,7 +84,7 @@ header.fr-header .nav-hamburger
     }
      header.nonfr-header  nav a:any-link:first-of-type
     {
-        display:none;
+/*         display:none; */
         border-top: unset !important;
     }
      header.nonfr-header  nav a:any-link:nth-of-type(2)
