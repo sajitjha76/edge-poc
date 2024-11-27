@@ -17,7 +17,16 @@ header.fr-header .nav-hamburger
 }
 
 
-/*header non Fr
+/*header non Fr */
+@media( width <=900px)
+{
+    header.nonfr-header nav .nav-sections ul > li > ul
+    {
+        display:none;
+    }
+}
+
+
 
 /* header and nav layout */
 header .nav-wrapper {
