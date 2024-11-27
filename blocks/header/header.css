@@ -24,6 +24,10 @@ header.fr-header .nav-hamburger
     {
         display:none;
     }
+    header nav .nav-sections ul
+    {
+        display:none;
+    }
 }
 
 
