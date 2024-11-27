@@ -41,7 +41,7 @@ header.fr-header .nav-hamburger
         padding: 12px 16px 12px 0;
         text-decoration: none;
         /* text-transform: uppercase; */
-        border-top: 1px solid
+                border-top: 1px solid rgba(0, 0, 0, 0.05);
     }
     header.nonfr-header  nav a:any-link:before
     {
@@ -55,6 +55,7 @@ header.fr-header .nav-hamburger
      header.nonfr-header  nav a:any-link:first-of-type
     {
         display:none;
+        border-top: unset !important;
     }
     header.nonfr-header  nav strong
     {
