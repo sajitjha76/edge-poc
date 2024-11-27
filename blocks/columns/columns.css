@@ -2,6 +2,11 @@
 @media (width <= 900px) 
 {
 /* Non-fr-main */
+main.nonfrMain-main	.carousel .carousel-slide .carousel-slide-content
+	{
+		position: unset;
+		transform: unset;
+	}
 main.nonfrMain-main .section.columns-container:last-of-type .columns > div 
 	{
 		display:flex;
