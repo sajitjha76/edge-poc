@@ -36,7 +36,11 @@ header.fr-header .nav-hamburger
     {
         display:none;
     }
-   .nav-wrapper .section.nav-sections
+     header.nonfr-header .nav-wrapper
+    {
+        background :unset;
+    }
+   header.nonfr-header  .nav-wrapper .section.nav-sections
     {
         height: 100%;
     border-radius: 20px;
