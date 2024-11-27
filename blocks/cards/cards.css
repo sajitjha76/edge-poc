@@ -1,4 +1,13 @@
-        .cards .cards-card-body {
+/* Mobile */
+@media (width <=900)
+{
+    .custom-tut.cards > ul
+    {
+        padding:0;
+    }
+    
+}
+.cards .cards-card-body {
   margin: 16px;
 }
 .cards-nav #left-arrow {
