@@ -35,6 +35,7 @@ main.nonfrMain-main	.tabs .tabs-panel
 	{
 		    grid-template-columns: 1fr;
 		padding:0 !important;
+		margin-top:20px;
 	}
 
 	
