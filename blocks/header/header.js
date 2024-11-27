@@ -189,8 +189,10 @@ export default async function decorate(block) {
   }
   else 
   {
-    var nonfrMain = document.querySelector("main")
-    nonfrMain.classList.add("nonfrMain-main")
+    var nonfrheader = document.querySelector("header");
+    var nonfrMain = document.querySelector("main");
+    nonfrMain.classList.add("nonfrMain-main");
+    nonfrheader.classList.add("nonfr-header");
   }
   const navPath = navMeta ? new URL(navMeta, window.location).pathname : headerPagePath;
   const fragment = await loadFragment(headerPagePath);
