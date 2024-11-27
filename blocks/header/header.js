@@ -274,7 +274,7 @@ export default async function decorate(block) {
         anchor.addEventListener('click', function(e) {
           e.preventDefault();
           console.log("click")
-          if (document.querySelector('header nav .nav-sections ul').style.display === 'none' || (document.querySelector('header nav .nav-sections ul').style.display === '' )
+          if (document.querySelector('header nav .nav-sections ul').style.display === 'none' || document.querySelector('header nav .nav-sections ul').style.display === '' )
           {
             document.querySelector('header nav .nav-sections ul').style.display = "block"
           }
