@@ -265,7 +265,8 @@ export default async function decorate(block) {
    if (getMetadata('breadcrumbs').toLowerCase() === 'true') {
     navWrapper.append(await buildBreadcrumbs());
   }
-
+if(window.innerWidth <= 900;)
+{
   setTimeout(function(){
     var mainnavAnchor = document.querySelectorAll('header.nonfr-header nav a:any-link')
     mainnavAnchor.forEach(function(anchor){
@@ -286,7 +287,9 @@ export default async function decorate(block) {
     })
     })
   
-})
+} , 100 )
+}
+  
 
 
   
