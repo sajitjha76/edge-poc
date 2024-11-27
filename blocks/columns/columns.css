@@ -30,7 +30,11 @@ main.nonfrMain-main .section.columns-container:last-of-type .columns > div
 		background-color: #d4212a !important;
 		font-size:16px;
 	}
-
+main.nonfrMain-main	.tabs .tabs-list
+	{
+		flex-wrap: unset;
+		scrollbar-width: none;
+	}
 main.nonfrMain-main	.tabs .tabs-panel 
 	{
 		    grid-template-columns: 1fr;
