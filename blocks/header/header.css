@@ -83,13 +83,13 @@ header.fr-header .nav-hamburger
         /* text-transform: uppercase; */
                 border-top: 1px solid rgba(0, 0, 0, 0.05);
     }
-    header.nonfr-header  nav a:any-link:before
+    header.nonfr-header  nav .nav-sections a:any-link:before
     {
         position: absolute;
         right: 0;
         top: 50%;
         transform: translateY(-50%);
-        content: url(https://www.yesbank.in/_cache_33a3/_themesdelivery/Yes-Bank-MigrationTheme/assets/html/footer/images/plus-icon.svg);
+        content: "+";
         color: #2B61AB;
     }
      header.nonfr-header  nav .nav-sections a:any-link:first-of-type
