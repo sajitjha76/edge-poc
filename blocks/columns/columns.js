@@ -17,7 +17,9 @@ export default function decorate(block) {
   });
   setTimeout(function(){
     var topdivall = document.querySelectorAll('.bestsuits > div .columns-img-col')
+     var bottomDiv = document.querySelectorAll('.bestsuits div:nth-of-type(2) div')
      topdivall.forEach(function(topdiv , index){
+      topdivall.insertAdjacentElement('afterend', bottomDiv[index]);
        console.log(topdiv , index)
      })
   })
