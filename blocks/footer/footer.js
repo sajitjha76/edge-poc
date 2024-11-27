@@ -34,7 +34,7 @@ export default async function decorate(block) {
     const firstParagraph = document.querySelectorAll('footer.non-fr-footer .columns.footercustom > div > div p:nth-of-type(1)');
    firstParagraph.forEach(function(para){
      para.addEventListener('click', function() {
-       console.log("click")
+       console.log("click");
      }
    })
       console.log(firstParagraph)
