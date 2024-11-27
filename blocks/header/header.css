@@ -28,6 +28,14 @@ header.fr-header .nav-hamburger
     {
         display:none;
     }
+    header.nonfr-header header nav a:any-link 
+    {
+        display:block;
+    }
+    header.nonfr-header header nav strong
+    {
+        display:block;
+    }
 }
 
 
