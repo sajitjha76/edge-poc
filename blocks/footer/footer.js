@@ -29,16 +29,14 @@ export default async function decorate(block) {
   while (fragment.firstElementChild) footer.append(fragment.firstElementChild);
 
 
-// //Mobile Footer
-// const firstParagraph = document.querySelector('footer.non-fr-footer .columns.footercustom > div > div p:nth-of-type(1)');
-//   // Add a click event listener to the first <p> element 
-//   firstParagraph.addEventListener('click', function() { 
-//     // Select all <p> elements const 
-//     allParagraphs = document.querySelectorAll('footer.non-fr-footer .columns.footercustom > div > div p:not(:nth-of-type(1))'); 
-//       // Loop through all <p> elements and set display to block 
-//     allParagraphs.forEach(function(paragraph) { 
-//       paragraph.style.display = 'block'; 
-//     }); 
-//   });
+//Mobile Footer
+const firstParagraph = document.querySelector('footer.non-fr-footer .columns.footercustom > div > div p:nth-of-type(1)');
+  firstParagraph.addEventListener('click', function() { 
+   var  allParagraphs = document.querySelectorAll('footer.non-fr-footer .columns.footercustom > div > div p:not(:nth-of-type(1))'); 
+      // Loop through all <p> elements and set display to block 
+    allParagraphs.forEach(function(paragraph) { 
+      paragraph.style.display = 'block'; 
+    }); 
+  });
   block.append(footer);
 }
