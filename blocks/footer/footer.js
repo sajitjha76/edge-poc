@@ -1,7 +1,7 @@
 import { getMetadata } from '../../scripts/aem.js';
 import { loadFragment } from '../fragment/fragment.js';
-import jQuery from "jquery";
-window.$ = window.jQuery = jQuery;
+//import jQuery from "jquery";
+//window.$ = window.jQuery = jQuery;
 $(".text.formtext.block").css("color", "red");
 
 /**
