@@ -4,12 +4,12 @@
 @media (width <= 900px) 
 {
 /* Non-fr-main */
-	#get-your-home-painted-in-the-safest-way , #choose-a-plan-that-best-suits-you
+	#get-your-home-painted-in-the-safest-way , #choose-a-plan-that-best-suits-you , #ideas-for-your-home
 	{
 		text-align:center !important;
 		font-size:30px !important;
 	}
-	#get-your-home-painted-in-the-safest-way ~ p , #choose-a-plan-that-best-suits-you ~ p
+	#get-your-home-painted-in-the-safest-way ~ p , #choose-a-plan-that-best-suits-you ~ p , #ideas-for-your-home ~ p
 	{
 	    font-weight: 400;
     font-size: 14px;
