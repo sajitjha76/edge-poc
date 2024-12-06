@@ -278,8 +278,12 @@ main.nonfrMain-main > .section.carousel-container
       main.fr-main > .section.text-container
 {
     margin: 40px 0 0px 0 !important;
-    padding: 0px 20px;
+   
 }  
+    main.fr-main > .section.text-container .text-wrapper .text.standard
+    {
+        padding: 0px 15px;
+    }
 /* main.fr-main >   div.section.columns-container:nth-of-type(1n)
     {
         margin:0;
