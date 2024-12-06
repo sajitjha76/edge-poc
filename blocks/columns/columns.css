@@ -29,6 +29,7 @@
 		box-shadow: 1px 6px 25px -4px #10182829;
 		padding: 10px 20px;
         margin-bottom: 15px;
+		        transform: translateY(-4%)
 	}
 	.bestsuits  > div:first-of-type div p:nth-of-type(1)
 	{
