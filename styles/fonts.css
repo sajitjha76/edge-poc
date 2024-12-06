@@ -1,9 +1,10 @@
 /* stylelint-disable max-line-length */
 @font-face {
   font-family: "Manrope-ExtraLight", sans-serif;
-  src: url('../fonts.ttf') format('truetype');
+  src: url('../fonts/Manrope-ExtraLight.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+    font-weight:400;
 }
 @font-face {
   font-family: roboto-condensed;
