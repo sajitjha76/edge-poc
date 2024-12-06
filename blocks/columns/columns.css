@@ -275,6 +275,7 @@ l.columns > div {
 }
 .section.text-container .text-wrapper .standard p 
 {
+	font-family: "Manrope-ExtraLight" , sans-serif;
 	font-weight: 400;
     font-size: 14px;
     letter-spacing: .5px;
