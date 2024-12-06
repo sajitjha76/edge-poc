@@ -61,7 +61,7 @@
     	width: 100%;
 		box-shadow: 0 2px 5px rgba(0, 0, 0, .0747566) !important;
 		border-radius: 2px !important;
-		transform : translate(5% , -40px)
+		transform : translate(5% , -20px)
 	}
 	.carousel-wrapper .carousel.block nav
 		{
