@@ -11,7 +11,7 @@
 	.bestsuits  >  div:first-of-type div
 	{
 		position:relative;
-		padding:0;
+		padding:0 !important;
 	}
 .bestsuits  > div:first-of-type div p:nth-of-type(2)
 	{
