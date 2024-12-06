@@ -9,7 +9,7 @@
 		text-align:center !important;
 		font-size:30px !important;
 	}
-	#get-your-home-painted-in-the-safest-way ` p , #choose-a-plan-that-best-suits-you `p
+	#get-your-home-painted-in-the-safest-way ~ p , #choose-a-plan-that-best-suits-you ~ p
 	{
 	    font-weight: 400;
     font-size: 14px;
