@@ -383,9 +383,16 @@ line-height: 22px;
 		margin-top: -10px;
         padding-right: 5px;
 	}
-	.section.columns-container .columns-wrapper .telephone > div div p:first-of-type
+	.section.columns-container .columns-wrapper .telephone > div div:nth-of-type(3) p:first-of-type
 	{
 		transform: translateY(-8px);
+	}
+	.section.columns-container .columns-wrapper .telephone > div div:nth-of-type(3) p img 
+	{
+		widht:20px !important;
+		height:20px !important;
+		 margin-left: 12.5px !important;;
+   		 margin-right: 11.5px !important;;
 	}
 
 }
