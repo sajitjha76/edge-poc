@@ -237,11 +237,12 @@ l.columns > div {
 	}
 	 #we-help-you-with
 	{
-		margin:0;
+		margin:0 0 20px 0;
 		font-weight: 700;
    	 font-size: 22px;
 		line-height: 28px;	
 		text-align:center;
+		
 }
 	.section.columns-container.video-container .columns-wrapper .columns > div 
 	{
