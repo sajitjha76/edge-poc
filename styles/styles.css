@@ -281,7 +281,7 @@ main.nonfrMain-main > .section.carousel-container
 }  
 main.fr-main >   div.section.columns-container:nth-of-type(1n)
     {
-        margin:0 !important;
+        margin:0;
     }
 }
 
