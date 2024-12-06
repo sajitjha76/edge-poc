@@ -1,1 +1,6 @@
-
+@font-face {
+  font-family: "Manrope", sans-serif;
+  src: url('./fonts.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
