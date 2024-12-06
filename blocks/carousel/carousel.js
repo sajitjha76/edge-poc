@@ -13,7 +13,7 @@ elements[0].appendChild(spanElement);
   {
       var bottom =  document.querySelector('.section.carousel-container.form-container  .form-wrapper');
    var movingDiv =  document.querySelector('.section.carousel-container.form-container  .form-wrapper').nextElementSibling;
-let offsetHeight = bottom.offsetHeight + 35;
+let offsetHeight = bottom.offsetHeight;
   offsetHeight = `${offsetHeight}px`;
   console.log(offsetHeight , movingDiv);
   movingDiv.style.bottom = offsetHeight;
