@@ -4,7 +4,10 @@
 @media (width <= 900px) 
 {
 /* Non-fr-main */
-
+.section.columns-container.video-container .columns-wrapper
+	{
+		padding: 0px 20px;
+	}
 .columns.telephone
 	{
 		padding:0px 20px;
