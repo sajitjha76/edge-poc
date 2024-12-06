@@ -213,7 +213,7 @@ l.columns > div {
     gap: 24px;
 	  display:flex;
   }
-.bestsuits  > div div:first-of-type
+.bestsuits  >  div:first-of-type div
 	{
 		position:relative;
 	}
