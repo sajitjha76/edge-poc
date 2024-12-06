@@ -8,8 +8,9 @@
 	#faqs {
    font-size: 20px !important;
         font-weight: 700 !important;
-        text-align: left !important;
-    margin: 0 0 10px 0 !important;
+        text-align: center !important;
+		
+    margin: 20px 0 10px 0 !important;
 }
 .faq-container .faq-wrapper .faq.block > div h3 
 	{
