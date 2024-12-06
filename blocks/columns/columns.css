@@ -252,6 +252,11 @@ l.columns > div {
     flex: 1;
     order: unset;
   }
+	.bestsuits  div:nth-of-type(2) 
+{
+	align-items:unset;
+	transform: translateY(-11px);
+}
 }
 
 @media (width <= 900px) {
@@ -453,11 +458,7 @@ height:127px;
     padding: 0 45px;
     justify-content: center;
 }
-.bestsuits  div:nth-of-type(2) 
-{
-	align-items:unset;
-	transform: translateY(-11px);
-}
+
 
 .bestsuits > div .columns-img-col 
 {
