@@ -8,6 +8,21 @@
 	{
 		padding: 0px 20px;
 	}
+	.bestsuits  >  div:first-of-type div
+	{
+		position:relative;
+	}
+.bestsuits  > div:first-of-type div p:nth-of-type(2)
+	{
+		position:absolute;
+		padding:0;
+		margin:0;
+		        bottom: 20%;
+        font-size: 32px;
+        left: 50%;
+        transform: translateX(-43%);
+        width: 100%;
+	}
 .columns.telephone
 	{
 		padding:0px 20px;
