@@ -222,6 +222,11 @@ l.columns > div {
 		position:absolute;
 		padding:0;
 		margin:0;
+		        bottom: 20%;
+        font-size: 32px;
+        left: 50%;
+        transform: translateX(-43%);
+        width: 100%;
 	}
   .columns > div > div {
     flex: 1;
