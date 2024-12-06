@@ -383,6 +383,10 @@ line-height: 22px;
 		margin-top: -10px;
         padding-right: 5px;
 	}
+	.section.columns-container .columns-wrapper .telephone > div div p:first-of-type
+	{
+		transform: translateY(-8px);
+	}
 
 }
 .section.columns-container .columns-wrapper .telephone > div
