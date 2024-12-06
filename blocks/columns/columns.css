@@ -26,7 +26,7 @@
 	}
 	.bestsuits  > div:first-of-type div:nth-of-type(2n)
 	{
-		box-shadow: 1px 6px 25px -4px #1018282
+		box-shadow: 1px 6px 25px -4px #10182829;
 	}
 	.bestsuits  > div:first-of-type div p:nth-of-type(1)
 	{
