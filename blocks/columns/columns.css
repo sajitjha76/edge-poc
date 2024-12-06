@@ -5,6 +5,11 @@
 {
 /* Non-fr-main */
 
+.columns.telephone
+	{
+		padding:0px 20px;
+	}
+	
 .bestsuits  div:nth-of-type(1) div:nth-of-type(2n)
 {
 	box-shadow: 1px 6px 25px -4px #10182829;
