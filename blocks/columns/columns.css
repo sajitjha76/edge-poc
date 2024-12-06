@@ -9,6 +9,13 @@
 		text-align:center !important;
 		font-size:30px !important;
 	}
+	#get-your-home-painted-in-the-safest-way ` p , #choose-a-plan-that-best-suits-you `p
+	{
+	    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .5px;
+    line-height: 22px;
+	}
 	#get-your-home-painted-in-the-safest-way
 	{
 		font-size:30px
