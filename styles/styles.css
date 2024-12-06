@@ -277,7 +277,7 @@ main.nonfrMain-main > .section.carousel-container
 @media (width <= 900px) {
       main.fr-main > .section.text-container
 {
-    margin: 0px 0 0px 0 !important;
+    margin: 40px 0 0px 0 !important;
 }  
 main.fr-main >   .section.columns-container:nth-of-type(1)
     {
