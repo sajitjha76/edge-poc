@@ -4,6 +4,10 @@
 @media (width <= 900px) 
 {
 /* Non-fr-main */
+	#get-your-home-painted-in-the-safest-way
+	{
+		font-size:30px
+	}
 .section.columns-container.video-container .columns-wrapper
 	{
 		padding: 0px 20px;
