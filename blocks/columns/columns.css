@@ -33,14 +33,14 @@
 		margin:20px 0px;
 	}
 	
-.bestsuits  div:nth-of-type(1) div:nth-of-type(2n)
+/* .bestsuits  div:nth-of-type(1) div:nth-of-type(2n)
 {
 	box-shadow: 1px 6px 25px -4px #10182829;
     padding: 20px 0 30px 30px;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
 	margin-bottom: 20px;
-}
+} */
 /* .bestsuits  div:nth-of-type(1) div:nth-of-type(2n) p{
 	margin:0;
     font-weight: 700;
