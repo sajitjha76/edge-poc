@@ -217,7 +217,7 @@ l.columns > div {
 	{
 		position:relative;
 	}
-.bestsuits  > div div:first-of-type p:nth-of-type(2)
+.bestsuits  > div:first-of-type div p:nth-of-type(2)
 	{
 		position:absolute;
 		padding:0;
