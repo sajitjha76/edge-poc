@@ -18,8 +18,8 @@ export default function decorate(block) {
   if(window.innerWidth <= 900)
   {
       setTimeout(function(){
-    var topdivall = document.querySelectorAll('.bestsuits > div .columns-img-col')
-     var bottomDiv = document.querySelectorAll('.bestsuits div:nth-of-type(2) div')
+    var topdivall = document.querySelectorAll('.bestsuits > div:nth-of-type(1) div' )
+     var bottomDiv = document.querySelectorAll('.bestsuits > div:nth-of-type(2) div')
      topdivall.forEach(function(topdiv , index){
       topdiv.insertAdjacentElement('afterend', bottomDiv[index]);
        console.log(topdiv , bottomDiv[index])
