@@ -436,6 +436,7 @@ height:127px;
 .bestsuits  div:nth-of-type(2) 
 {
 	align-items:unset
+	transform: translateY(-11px);
 }
 
 .bestsuits > div .columns-img-col 
